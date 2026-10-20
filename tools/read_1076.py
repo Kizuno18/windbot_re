@@ -6,6 +6,11 @@ BASE=0x400000
 A=dict(XOR=0x8380D0,HP=0x9D5000,HPMAX=0x9D502C,MANA=0x838100,MANAMAX=0x8380D4,SOUL=0x8380EC,EXP=0x8380D8,LEVEL=0x8380E8,
        PID=0x9D5034,X=0x9D5038,Y=0x9D503C,Z=0x9D5040,CONN=0x849EEC,RED=0x8380FC,BL=0xA2C0A0)
 STRIDE, SLOTS = 0xDC, 1300
+SKULL={0:'none',1:'yellow',2:'green',3:'white',4:'red',5:'black',6:'orange'}
+SHIELD={0:'none',1:'white-yellow',2:'white-blue',3:'blue',4:'yellow',5:'blue-sharedexp',6:'yellow-sharedexp',
+        7:'blue-noshared-blink',8:'yellow-noshared-blink',9:'blue-noshared',10:'yellow-noshared',11:'gray'}
+EMBLEM={0:'none',1:'ally',2:'enemy',3:'neutral',4:'member',5:'other'}
+TYPE={0:'player',1:'monster',2:'npc',3:'summon-own',4:'summon-other'}
 pid=int(sys.argv[1]); f=open(f'/proc/{pid}/mem','rb')
 def rd(a,n): f.seek(a); return f.read(n)
 def u(a): return struct.unpack('<I',rd(a,4))[0]
@@ -25,8 +30,12 @@ if __name__=='__main__':
     for i,b in creatures():
         name=b[4:36].split(b'\0')[0].decode('latin1')
         g=lambda o: struct.unpack_from('<i',b,o)[0]
+        mark=(g(0xa8),g(0xac),g(0xb0))
         print(i, hex(g(0)&0xffffffff), repr(name), 'xyz', (g(0x2c),g(0x28),g(0x24)), 'dir', g(0x38),
               'outfit', (g(0x60),g(0x64),g(0x68),g(0x6c),g(0x70),'addons',g(0x74),'mount',g(0x78)),
-              'hp%', g(0x8c), 'speed', g(0x90), 'skull', g(0x94), 'party', g(0x98), 'visible', g(0xa4), 'type', g(0xbc))
+              'light', (g(0x7c),g(0x80)), 'hp%', g(0x8c), 'speed', g(0x90), 'unpassable', b[0x94],
+              'skull', SKULL.get(g(0x98),g(0x98)), 'shield', SHIELD.get(g(0x9c),g(0x9c)), 'emblem', EMBLEM.get(g(0xa0),g(0xa0)),
+              'visible', g(0xa4), 'mark', ('none' if not b[0xb4] else mark), 'helpers', g(0xb8),
+              'type', TYPE.get(g(0xbc),g(0xbc)), 'bubble', g(0xc0))
         if '--dump' in sys.argv:
             for o in range(0x24,STRIDE,4): print(f'   +{o:#04x} {struct.unpack_from("<I",b,o)[0]:#010x} {struct.unpack_from("<i",b,o)[0]}')

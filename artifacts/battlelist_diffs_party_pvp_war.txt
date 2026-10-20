@@ -1,0 +1,57 @@
+[baseline] viewer=A creature='Re Tester' self=1 {'0x94': 0, '0x98': 0, '0x9c': 0, '0xa0': 0, '0xa8': 357, '0xb0': 153, '0xb8': 0, '0xcc': 1}
+[baseline] viewer=A creature='Re Tester B' self=0 {'0x94': 0, '0x98': 0, '0x9c': 0, '0xa0': 0, '0xa8': 357, '0xb0': 153, '0xb8': 0, '0xcc': 1}
+[baseline] viewer=B creature='Re Tester' self=0 {'0x94': 0, '0x98': 0, '0x9c': 0, '0xa0': 0, '0xa8': 357, '0xb0': 153, '0xb8': 0, '0xcc': 1}
+[baseline] viewer=B creature='Re Tester B' self=1 {'0x94': 0, '0x98': 0, '0x9c': 0, '0xa0': 0, '0xa8': 357, '0xb0': 153, '0xb8': 0, '0xcc': 1}
+[A_invites_B_2] viewer=A creature='Re Tester' self=1 {'0x98': '0->2', '0x9c': '0->4', '0xb8': '0->2'}
+[A_invites_B_2] viewer=A creature='Re Tester B' self=0 {'0x9c': '0->2'}
+[A_invites_B_2] viewer=B creature='Re Tester' self=0 {'0x9c': '0->1', '0xb8': '0->2'}
+[B_joins] viewer=A creature='Re Tester B' self=0 {'0x98': '0->2', '0x9c': '2->3', '0xb8': '0->2'}
+[B_joins] viewer=B creature='Re Tester' self=0 {'0x98': '0->2', '0x9c': '1->4'}
+[B_joins] viewer=B creature='Re Tester B' self=1 {'0x98': '0->2', '0x9c': '0->3', '0xb8': '0->2'}
+[sharedexp_on] viewer=A creature='Re Tester' self=1 {'0x9c': '4->6'}
+[sharedexp_on] viewer=A creature='Re Tester B' self=0 {'0x9c': '3->5'}
+[sharedexp_on] viewer=B creature='Re Tester' self=0 {'0x9c': '4->6'}
+[sharedexp_on] viewer=B creature='Re Tester B' self=1 {'0x9c': '3->5'}
+[sharedexp_off] viewer=A creature='Re Tester' self=1 {'0x9c': '6->4'}
+[sharedexp_off] viewer=A creature='Re Tester B' self=0 {'0x9c': '5->3'}
+[sharedexp_off] viewer=B creature='Re Tester' self=0 {'0x9c': '6->4'}
+[sharedexp_off] viewer=B creature='Re Tester B' self=1 {'0x9c': '5->3'}
+[A_leaves_party] viewer=A creature='Re Tester' self=1 {'0x98': '2->0', '0x9c': '4->0', '0xb8': '2->0'}
+[A_leaves_party] viewer=A creature='Re Tester B' self=0 {'0x98': '2->0', '0x9c': '3->0', '0xb8': '2->0'}
+[A_leaves_party] viewer=B creature='Re Tester' self=0 {'0x98': '2->0', '0x9c': '4->0', '0xb8': '2->0'}
+[A_leaves_party] viewer=B creature='Re Tester B' self=1 {'0x98': '2->0', '0x9c': '3->0', '0xb8': '2->0'}
+[relog_pvp_baseline] viewer=A creature='Re Tester' self=1 {'0x94': 1, '0x98': 0, '0x9c': 0, '0xa0': 0, '0xa8': 357, '0xb0': 153, '0xb8': 0, '0xcc': 1}
+[relog_pvp_baseline] viewer=B creature='Re Tester B' self=1 {'0x94': 1, '0x98': 0, '0x9c': 0, '0xa0': 0, '0xa8': 357, '0xb0': 153, '0xb8': 0, '0xcc': 1}
+[A_attacks_B] viewer=B creature='Re Tester B' self=1 {'0x8c': '5->0', '0xa4': '1->0'}
+[pvp_baseline] viewer=A creature='Re Tester' self=1 {'0x94': 1, '0x98': 0, '0x9c': 0, '0xa0': 0, '0xa8': 357, '0xb0': 153, '0xb8': 0, '0xcc': 1}
+[pvp_baseline] viewer=A creature='Re Tester B' self=0 {'0x94': 1, '0x98': 0, '0x9c': 0, '0xa0': 0, '0xa8': 357, '0xb0': 153, '0xb8': 0, '0xcc': 1}
+[pvp_baseline] viewer=B creature='Re Tester' self=0 {'0x94': 1, '0x98': 0, '0x9c': 0, '0xa0': 0, '0xa8': 357, '0xb0': 153, '0xb8': 0, '0xcc': 1}
+[pvp_baseline] viewer=B creature='Re Tester B' self=1 {'0x94': 1, '0x98': 0, '0x9c': 0, '0xa0': 0, '0xa8': 357, '0xb0': 153, '0xb8': 0, '0xcc': 1}
+[guilds_nowar] viewer=A creature='Re Tester' self=1 {'0x94': 1, '0x98': 0, '0x9c': 0, '0xa0': 4, '0xa8': 357, '0xb0': 153, '0xb8': 1, '0xcc': 1}
+[guilds_nowar] viewer=A creature='Re Tester B' self=0 {'0x94': 1, '0x98': 0, '0x9c': 0, '0xa0': 5, '0xa8': 357, '0xb0': 153, '0xb8': 1, '0xcc': 1}
+[guilds_nowar] viewer=B creature='Re Tester' self=0 {'0x94': 1, '0x98': 0, '0x9c': 0, '0xa0': 5, '0xa8': 357, '0xb0': 153, '0xb8': 1, '0xcc': 1}
+[guilds_nowar] viewer=B creature='Re Tester B' self=1 {'0x94': 1, '0x98': 0, '0x9c': 0, '0xa0': 4, '0xa8': 357, '0xb0': 153, '0xb8': 1, '0xcc': 1}
+[A_pvp_hit_B] viewer=A creature='Re Tester' self=1 {'0x98': '0->3'}
+[A_pvp_hit_B] viewer=A creature='Re Tester B' self=0 {'0x8c': '100->99'}
+[A_pvp_hit_B] viewer=B creature='Re Tester' self=0 {'0x98': '0->3'}
+[A_pvp_hit_B] viewer=B creature='Re Tester B' self=1 {'0x8c': '100->99'}
+[B_hits_back_A] viewer=A creature='Re Tester' self=1 {'0x8c': '100->99'}
+[B_hits_back_A] viewer=B creature='Re Tester' self=0 {'0x8c': '100->99'}
+[B_setskull_1] viewer=A creature='Re Tester B' self=0 {'0x98': '0->1'}
+[B_setskull_1] viewer=B creature='Re Tester B' self=1 {'0x98': '0->1'}
+[B_setskull_4] viewer=A creature='Re Tester B' self=0 {'0x98': '1->4'}
+[B_setskull_4] viewer=B creature='Re Tester B' self=1 {'0x98': '1->4'}
+[B_setskull_5] viewer=A creature='Re Tester B' self=0 {'0x98': '4->5'}
+[B_setskull_5] viewer=B creature='Re Tester B' self=1 {'0x98': '4->5'}
+[B_setskull_0] viewer=A creature='Re Tester B' self=0 {'0x98': '5->0'}
+[B_setskull_0] viewer=B creature='Re Tester B' self=1 {'0x98': '5->0'}
+[B_setskull_6] viewer=A creature='Re Tester' self=1 {'0x98': '3->0'}
+[B_setskull_6] viewer=A creature='Re Tester B' self=0 {'0x98': '0->6'}
+[B_setskull_6] viewer=B creature='Re Tester' self=0 {'0x98': '3->0'}
+[B_setskull_6] viewer=B creature='Re Tester B' self=1 {'0x98': '0->6'}
+[guild_war_active] viewer=A creature='Re Tester' self=1 {'0x94': 1, '0x98': 2, '0x9c': 0, '0xa0': 1, '0xa8': 357, '0xb0': 153, '0xb8': 1, '0xcc': 1}
+[guild_war_active] viewer=A creature='Re Tester B' self=0 {'0x94': 1, '0x98': 2, '0x9c': 0, '0xa0': 2, '0xa8': 357, '0xb0': 153, '0xb8': 1, '0xcc': 1}
+[guild_war_active] viewer=B creature='Re Tester' self=0 {'0x94': 1, '0x98': 2, '0x9c': 0, '0xa0': 2, '0xa8': 357, '0xb0': 153, '0xb8': 1, '0xcc': 1}
+[guild_war_active] viewer=B creature='Re Tester B' self=1 {'0x94': 1, '0x98': 2, '0x9c': 0, '0xa0': 1, '0xa8': 357, '0xb0': 153, '0xb8': 1, '0xcc': 1}
+[war_A_hits_B] viewer=A creature='Re Tester B' self=0 {'0x8c': '100->99'}
+[war_A_hits_B] viewer=B creature='Re Tester B' self=1 {'0x8c': '100->99'}
