@@ -1,5 +1,7 @@
 # Tibia 10.76 client memory map (shared with ibot_re)
 
+> Consolidated reference map: [shared/client-1076-memory-map.md](shared/client-1076-memory-map.md). This page keeps the sources and live validation logs.
+
 Static derivation and verification: [ibot_re/docs/14](https://github.com/Kizuno18/ibot_re/blob/main/docs/14-client-1076-offsets.md). The live-validated layout is mirrored below. Reader: `tools/read_1076.py`.
 
 ## Live validation (2026-10-20, local TFS 1.1 + patched 10.76 client under Wine)

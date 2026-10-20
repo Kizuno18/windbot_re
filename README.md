@@ -74,7 +74,8 @@ are documented from static metadata (RTTI, strings, Lua catalogs).
 | [15-vmp-lab](docs/15-vmp-lab.md) | windows-lab / NoVmp applicability |
 | [16-static-protection-profile](docs/16-static-protection-profile.md) | VMP sections/entropy/imports, 2.6.2 vs 2.8.30 |
 | [17-subsystem-map](docs/17-subsystem-map.md) | RTTI hierarchies × strings × Lua API by subsystem |
-| [history](docs/history.md) | Wayback timeline |
+| [history](docs/history.md) | Product timeline, pricing, end of support (Wayback) |
+| [shared/client-1076-memory-map](docs/shared/client-1076-memory-map.md) | Consolidated 10.76 player + battle-list map (shared with the sibling repo) |
 
 ## Tools
 
