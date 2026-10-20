@@ -96,7 +96,6 @@ Coverage per area is tracked in [00-status](docs/00-status.md).
 | --- | --- |
 | `docs/` | Research chapters; `docs/shared/` is mirrored in ibot_re |
 | `artifacts/` | Text dumps and profiles |
-| `scripts/` | Environment helpers |
 | `tools/pe_recon.py`, `tools/vmp_section_profile.py` | PE triage; section/entropy/import profile |
 | `tools/rtti_vtables.py` | MSVC RTTI → vtables/bases |
 | `tools/lua_subsystem_map.py` | Lua API ↔ binary ↔ shipped Lua |
