@@ -63,6 +63,10 @@ The session ends at the Authentication dialog (forum credentials required). Feat
 | [06-client-patch](docs/06-client-patch.md) | IP/RSA patch |
 | [07-runtime](docs/07-runtime.md) | Wine session notes |
 | [08-protocol-ot](docs/08-protocol-ot.md) | Local TFS setup |
+| [09-lua-api-catalog](docs/09-lua-api-catalog.md) | 801-entry Lua API ↔ binary |
+| [10-rtti-architecture](docs/10-rtti-architecture.md) | Class map + injection evidence |
+| [11-settings-schema](docs/11-settings-schema.md) | .xmls/.xmlc, waypoints |
+| [12-auth-protocol](docs/12-auth-protocol.md) | Auth/updater/navi |
 
 ## Tools
 
