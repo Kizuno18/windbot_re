@@ -1,0 +1,300 @@
+class	vtable	slots_est	this_off	bases
+AboutDialog	0x77b380	7	8	QDialog > QWidget > QObject > QPaintDevice
+AboutDialog	0x77b2b4	50	0	QDialog > QWidget > QObject > QPaintDevice
+AlertsDelegate	0x77bcdc	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+AlertsWidget	0x77bcbc	7	8	QWidget > QObject > QPaintDevice
+AlertsWidget	0x77bc04	45	0	QWidget > QObject > QPaintDevice
+AlphaCommandElement	0x77c324	1	0	AlphaElement
+AlphaElement	0x77c31c	1	0	
+AlphaEvent	0x77c314	1	0	WindEvent > QEvent
+AlphaShapeElement	0x77c334	1	0	AlphaElement
+AlphaTextElement	0x77c32c	1	0	AlphaElement
+BotInfoSqliteDb	0x78b7a0	1	0	ScriptInfoSqliteDb > WindSqliteDb
+CategoryAndDestinationDialog	0x791d30	7	8	QDialog > QWidget > QObject > QPaintDevice
+CategoryAndDestinationDialog	0x791c64	50	0	QDialog > QWidget > QObject > QPaintDevice
+CavebotCheckBox	0x77db60	7	8	QCheckBox > QAbstractButton > QWidget > QObject > QPaintDevice
+CavebotCheckBox	0x77da9c	48	0	QCheckBox > QAbstractButton > QWidget > QObject > QPaintDevice
+CavebotComboBox	0x77da7c	7	8	QComboBox > QWidget > QObject > QPaintDevice
+CavebotComboBox	0x77d9bc	47	0	QComboBox > QWidget > QObject > QPaintDevice
+CavebotDoubleSpinBox	0x77d998	7	8	QDoubleSpinBox > QAbstractSpinBox > QWidget > QObject > QPaintDevice
+CavebotDoubleSpinBox	0x77d8c4	52	0	QDoubleSpinBox > QAbstractSpinBox > QWidget > QObject > QPaintDevice
+CavebotGroupBox	0x77dd14	7	8	QGroupBox > QWidget > QObject > QPaintDevice
+CavebotGroupBox	0x77dc5c	45	0	QGroupBox > QWidget > QObject > QPaintDevice
+CavebotLineEdit	0x77dc3c	7	8	QLineEdit > QWidget > QObject > QPaintDevice
+CavebotLineEdit	0x77db84	45	0	QLineEdit > QWidget > QObject > QPaintDevice
+CavebotPushButton	0x77dee8	7	8	QPushButton > QAbstractButton > QWidget > QObject > QPaintDevice
+CavebotPushButton	0x77de24	48	0	QPushButton > QAbstractButton > QWidget > QObject > QPaintDevice
+CavebotRangeSpinBox	0x77de00	7	8	RangeSpinbox > QAbstractSpinBox > QWidget > QObject > QPaintDevice
+CavebotRangeSpinBox	0x77dd34	50	0	RangeSpinbox > QAbstractSpinBox > QWidget > QObject > QPaintDevice
+CavebotSpinBox	0x77d8a0	7	8	QSpinBox > QAbstractSpinBox > QWidget > QObject > QPaintDevice
+CavebotSpinBox	0x77d7cc	52	0	QSpinBox > QAbstractSpinBox > QWidget > QObject > QPaintDevice
+CavebotTabWidget	0x78e60c	7	8	QTabWidget > QWidget > QObject > QPaintDevice
+CavebotTabWidget	0x78e54c	47	0	QTabWidget > QWidget > QObject > QPaintDevice
+CavebotTabsBar	0x78e528	7	8	QTabBar > QWidget > QObject > QPaintDevice
+CavebotTabsBar	0x78e45c	50	0	QTabBar > QWidget > QObject > QPaintDevice
+CavebotWidget	0x78e43c	7	8	QWidget > QObject > QPaintDevice
+CavebotWidget	0x78e384	45	0	QWidget > QObject > QPaintDevice
+CharGraphicsItem	0x789714	36	0	QGraphicsItem
+CharacterInfoSqliteDb	0x78b7a8	1	0	ScriptInfoSqliteDb > WindSqliteDb
+ChatRoomItem	0x7853d0	9	0	NaviRoomItem > QStandardItem
+ChatUserItem	0x7853f8	10	0	QStandardItem
+ClientPicker	0x77e520	7	8	QDialog > QWidget > QObject > QPaintDevice
+ClientPicker	0x77e454	50	0	QDialog > QWidget > QObject > QPaintDevice
+ConsoleTextEdit	0x77e758	7	8	QTextEdit > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+ConsoleTextEdit	0x77e67c	54	0	QTextEdit > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+DebugWindow	0x78ea30	7	8	QMainWindow > QWidget > QObject > QPaintDevice
+DebugWindow	0x78e974	46	0	QMainWindow > QWidget > QObject > QPaintDevice
+EnmityListsWidget	0x77faa4	7	8	QWidget > QObject > QPaintDevice
+EnmityListsWidget	0x77f9ec	45	0	QWidget > QObject > QPaintDevice
+ErrorThread	0x78023c	12	0	QThread > QObject
+FileIOThread	0x78b950	12	0	QThread > QObject
+FileUpload	0x780448	11	0	QObject
+GameChatWidget	0x78058c	7	8	QWidget > QObject > QPaintDevice
+GameChatWidget	0x7804d4	45	0	QWidget > QObject > QPaintDevice
+GeneralSettingsWidget	0x78f544	7	8	QWidget > QObject > QPaintDevice
+GeneralSettingsWidget	0x78f48c	45	0	QWidget > QObject > QPaintDevice
+HealerWidget	0x79094c	7	8	QWidget > QObject > QPaintDevice
+HealerWidget	0x790894	45	0	QWidget > QObject > QPaintDevice
+HealerWidgetTabs	0x7917f4	7	8	QWidget > QObject > QPaintDevice
+HealerWidgetTabs	0x79173c	45	0	QWidget > QObject > QPaintDevice
+HotkeyPicker	0x78877c	7	8	QLineEdit > QWidget > QObject > QPaintDevice
+HotkeyPicker	0x7886c4	45	0	QLineEdit > QWidget > QObject > QPaintDevice
+ImportLootListDialog	0x791c40	7	8	QDialog > QWidget > QObject > QPaintDevice
+ImportLootListDialog	0x791b74	50	0	QDialog > QWidget > QObject > QPaintDevice
+JSONHighlighter	0x787fb4	12	0	WindHighlighter > QSyntaxHighlighter > QObject
+LibraryUpdaterWidget	0x781a28	7	8	QDialog > QWidget > QObject > QPaintDevice
+LibraryUpdaterWidget	0x78195c	50	0	QDialog > QWidget > QObject > QPaintDevice
+LineBar	0x788db4	7	8	QWidget > QObject > QPaintDevice
+LineBar	0x788cfc	45	0	QWidget > QObject > QPaintDevice
+LineNumbers	0x788e8c	7	8	QFrame > QWidget > QObject > QPaintDevice
+LineNumbers	0x788dd4	45	0	QFrame > QWidget > QObject > QPaintDevice
+LoadScriptDelegate	0x79d11c	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+LoginDialog	0x7821f0	7	8	QDialog > QWidget > QObject > QPaintDevice
+LoginDialog	0x782124	50	0	QDialog > QWidget > QObject > QPaintDevice
+LootingDestinationDelegate	0x7945b4	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+LootingModel	0x7943bc	45	0	QStandardItemModel > QAbstractItemModel > QObject
+LootingProfileDelegate	0x792a84	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+LootingProfileWidget	0x792a64	7	8	QWidget > QObject > QPaintDevice
+LootingProfileWidget	0x7929ac	45	0	QWidget > QObject > QPaintDevice
+LootingWidget	0x79452c	7	8	QWidget > QObject > QPaintDevice
+LootingWidget	0x794474	45	0	QWidget > QObject > QPaintDevice
+LootingWidgetDelegate	0x79454c	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+LuaEditor	0x788cd8	7	8	QTextEdit > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+LuaEditor	0x788bfc	54	0	QTextEdit > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+LuaHighlighter	0x787f80	12	0	WindHighlighter > QSyntaxHighlighter > QObject
+MainEventReceiver	0x79c134	11	0	QObject
+MainWindow	0x79c220	7	8	QMainWindow > QWidget > QObject > QPaintDevice
+MainWindow	0x79c164	46	0	QMainWindow > QWidget > QObject > QPaintDevice
+MapItem	0x78900c	36	0	QGraphicsRectItem > QAbstractGraphicsShapeItem > QGraphicsItem
+MapView	0x789188	7	8	QGraphicsView > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+MapView	0x7890b4	52	0	QGraphicsView > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+MapWidget	0x7896f0	7	8	QMainWindow > QWidget > QObject > QPaintDevice
+MapWidget	0x789634	46	0	QMainWindow > QWidget > QObject > QPaintDevice
+NaviBanList	0x782918	7	8	QDialog > QWidget > QObject > QPaintDevice
+NaviBanList	0x78284c	50	0	QDialog > QWidget > QObject > QPaintDevice
+NaviBanRoomDialog	0x784728	7	8	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviBanRoomDialog	0x78465c	50	0	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviChangeRoomPassDialog	0x783fa8	7	8	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviChangeRoomPassDialog	0x783edc	50	0	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviChangeServerPassDialog	0x783eb8	7	8	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviChangeServerPassDialog	0x783dec	50	0	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviChat	0x782e8c	7	8	QWidget > QObject > QPaintDevice
+NaviChat	0x782dd4	45	0	QWidget > QObject > QPaintDevice
+NaviChatTextEdit	0x782f88	7	8	QTextEdit > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+NaviChatTextEdit	0x782eac	54	0	QTextEdit > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+NaviChatWindow	0x7832a8	7	8	QDialog > QWidget > QObject > QPaintDevice
+NaviChatWindow	0x7831dc	50	0	QDialog > QWidget > QObject > QPaintDevice
+NaviCreateRoomDialog	0x784098	7	8	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviCreateRoomDialog	0x783fcc	50	0	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviDelegate	0x786f2c	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+NaviDialog	0x77fde8	7	8	QDialog > QWidget > QObject > QPaintDevice
+NaviDialog	0x77fd1c	50	0	QDialog > QWidget > QObject > QPaintDevice
+NaviDormantRoomsDelegate	0x784d24	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+NaviDormantRoomsWidget	0x784d00	7	8	QDialog > QWidget > QObject > QPaintDevice
+NaviDormantRoomsWidget	0x784c34	50	0	QDialog > QWidget > QObject > QPaintDevice
+NaviEditFileDialog	0x784548	7	8	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviEditFileDialog	0x78447c	50	0	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviFileBrowser	0x7850f0	7	8	QDialog > QWidget > QObject > QPaintDevice
+NaviFileBrowser	0x785024	50	0	QDialog > QWidget > QObject > QPaintDevice
+NaviFileBrowserDelegate	0x785134	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+NaviFileItem	0x785110	8	0	QStandardItem
+NaviGraphicsItem	0x7851dc	36	0	QGraphicsItem
+NaviGui::NaviHistory	0x785578	11	0	QFileSystemWatcher > QObject
+NaviIconLabel	0x785b5c	7	8	QLabel > QFrame > QWidget > QObject > QPaintDevice
+NaviIconLabel	0x785aa4	45	0	QLabel > QFrame > QWidget > QObject > QPaintDevice
+NaviIconPicker	0x785c48	7	8	QDialog > QWidget > QObject > QPaintDevice
+NaviIconPicker	0x785b7c	50	0	QDialog > QWidget > QObject > QPaintDevice
+NaviInsertRelationEntry	0x77fed8	7	8	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviInsertRelationEntry	0x77fe0c	50	0	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviJoinDormantRoomDialog	0x784818	7	8	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviJoinDormantRoomDialog	0x78474c	50	0	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviJoinNaviRoomWarning	0x784908	7	8	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviJoinNaviRoomWarning	0x78483c	50	0	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviKickRoomDialog	0x784638	7	8	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviKickRoomDialog	0x78456c	50	0	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviNewFileDialog	0x784458	7	8	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviNewFileDialog	0x78438c	50	0	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviOneQuestionDialog	0x784188	7	8	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviOneQuestionDialog	0x7840bc	50	0	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviRegisterNickDialog	0x784368	7	8	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviRegisterNickDialog	0x78429c	50	0	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviRoomItem	0x7853a8	9	0	QStandardItem
+NaviSortFilterModel	0x786d7c	53	0	QSortFilterProxyModel > QAbstractProxyModel > QAbstractItemModel > QObject
+NaviUserItem	0x785424	10	0	ChatUserItem > QStandardItem
+NaviUserLoginDialog	0x784278	7	8	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviUserLoginDialog	0x7841ac	50	0	NaviDialog > QDialog > QWidget > QObject > QPaintDevice
+NaviWidget	0x786f0c	7	8	QWidget > QObject > QPaintDevice
+NaviWidget	0x786e54	45	0	QWidget > QObject > QPaintDevice
+Navigation	0x7826c0	12	0	QThread > QObject
+PlayerInfoDelegate	0x77f984	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+PlayerInfoModel	0x77f7f4	45	0	QStandardItemModel > QAbstractItemModel > QObject
+PlayerInfoProxyModel	0x77f8ac	53	0	QSortFilterProxyModel > QAbstractProxyModel > QAbstractItemModel > QObject
+PlayerInfoTable	0x77fc24	7	8	QTableView > QAbstractItemView > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+PlayerInfoTable	0x77fac4	87	0	QTableView > QAbstractItemView > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+PositionSpinBox	0x79c628	7	8	QAbstractSpinBox > QWidget > QObject > QPaintDevice
+PositionSpinBox	0x79c55c	50	0	QAbstractSpinBox > QWidget > QObject > QPaintDevice
+QAction	0x77c2dc	11	0	QObject
+QCheckBox	0x77be08	7	8	QAbstractButton > QWidget > QObject > QPaintDevice
+QCheckBox	0x77bd44	48	0	QAbstractButton > QWidget > QObject > QPaintDevice
+QColorDialog	0x785a80	7	8	QDialog > QWidget > QObject > QPaintDevice
+QColorDialog	0x7859b4	50	0	QDialog > QWidget > QObject > QPaintDevice
+QComboBox	0x77c19c	7	8	QWidget > QObject > QPaintDevice
+QComboBox	0x77c0dc	47	0	QWidget > QObject > QPaintDevice
+QCompleter	0x786d40	13	0	QObject
+QDialog	0x79c028	7	8	QWidget > QObject > QPaintDevice
+QDialog	0x79bf5c	50	0	QWidget > QObject > QPaintDevice
+QDialogButtonBox	0x783ce4	7	8	QWidget > QObject > QPaintDevice
+QDialogButtonBox	0x783c2c	45	0	QWidget > QObject > QPaintDevice
+QDoubleSpinBox	0x792bc0	7	8	QAbstractSpinBox > QWidget > QObject > QPaintDevice
+QDoubleSpinBox	0x792aec	52	0	QAbstractSpinBox > QWidget > QObject > QPaintDevice
+QEvent	0x77c9b8	1	0	
+QFile	0x7a251c	31	0	QFileDevice > QIODevice > QObject
+QFileSystemModel	0x79c07c	45	0	QAbstractItemModel > QObject
+QFormLayout	0x77df54	16	8	QLayout > QObject > QLayoutItem
+QFormLayout	0x77df0c	16	0	QLayout > QObject > QLayoutItem
+QFrame	0x77d7ac	7	8	QWidget > QObject > QPaintDevice
+QFrame	0x77d6f4	45	0	QWidget > QObject > QPaintDevice
+QGraphicsScene	0x7894d4	31	0	QObject
+QGridLayout	0x77b434	16	8	QLayout > QObject > QLayoutItem
+QGridLayout	0x77b3ec	16	0	QLayout > QObject > QLayoutItem
+QGroupBox	0x77fcfc	7	8	QWidget > QObject > QPaintDevice
+QGroupBox	0x77fc44	45	0	QWidget > QObject > QPaintDevice
+QHBoxLayout	0x77e58c	16	8	QBoxLayout > QLayout > QObject > QLayoutItem
+QHBoxLayout	0x77e544	16	0	QBoxLayout > QLayout > QObject > QLayoutItem
+QImage	0x77c2bc	7	0	QPaintDevice
+QLabel	0x77b534	7	8	QFrame > QWidget > QObject > QPaintDevice
+QLabel	0x77b47c	45	0	QFrame > QWidget > QObject > QPaintDevice
+QLineEdit	0x77f6f4	7	8	QWidget > QObject > QPaintDevice
+QLineEdit	0x77f63c	45	0	QWidget > QObject > QPaintDevice
+QListView	0x78bc3c	7	8	QAbstractItemView > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+QListView	0x78badc	87	0	QAbstractItemView > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+QMenu	0x7894b4	7	8	QWidget > QObject > QPaintDevice
+QMenu	0x7893fc	45	0	QWidget > QObject > QPaintDevice
+QMenuBar	0x784a1c	7	8	QWidget > QObject > QPaintDevice
+QMenuBar	0x784964	45	0	QWidget > QObject > QPaintDevice
+QNetworkAccessManager	0x780414	12	0	QObject
+QPushButton	0x77b290	7	8	QAbstractButton > QWidget > QObject > QPaintDevice
+QPushButton	0x77b1cc	48	0	QAbstractButton > QWidget > QObject > QPaintDevice
+QRadioButton	0x783dc8	7	8	QAbstractButton > QWidget > QObject > QPaintDevice
+QRadioButton	0x783d04	48	0	QAbstractButton > QWidget > QObject > QPaintDevice
+QRegExpValidator	0x784928	13	0	QValidator > QObject
+QScrollArea	0x78e6f4	7	8	QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+QScrollArea	0x78e62c	49	0	QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+QShortcut	0x7892f0	11	0	QObject
+QSlider	0x790a28	7	8	QAbstractSlider > QWidget > QObject > QPaintDevice
+QSlider	0x79096c	46	0	QAbstractSlider > QWidget > QObject > QPaintDevice
+QSpacerItem	0x77b3a4	16	0	QLayoutItem
+QSpinBox	0x77c0b8	7	8	QAbstractSpinBox > QWidget > QObject > QPaintDevice
+QSpinBox	0x77bfe4	52	0	QAbstractSpinBox > QWidget > QObject > QPaintDevice
+QSplitter	0x789610	7	8	QFrame > QWidget > QObject > QPaintDevice
+QSplitter	0x789554	46	0	QFrame > QWidget > QObject > QPaintDevice
+QStandardItem	0x77bfac	8	0	
+QStandardItemModel	0x77bb4c	45	0	QAbstractItemModel > QObject
+QStatusBar	0x7893dc	7	8	QWidget > QObject > QPaintDevice
+QStatusBar	0x789324	45	0	QWidget > QObject > QPaintDevice
+QSvgRenderer	0x7851ac	11	0	QObject
+QSystemTrayIcon	0x79c048	11	0	QObject
+QTabWidget	0x77f7d4	7	8	QWidget > QObject > QPaintDevice
+QTabWidget	0x77f714	47	0	QWidget > QObject > QPaintDevice
+QTableView	0x77bf8c	7	8	QAbstractItemView > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+QTableView	0x77be2c	87	0	QAbstractItemView > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+QTableWidget	0x77e414	7	8	QTableView > QAbstractItemView > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+QTableWidget	0x77e2a4	91	0	QTableView > QAbstractItemView > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+QTableWidgetItem	0x77e434	7	0	
+QTextDocument	0x78e934	14	0	QObject
+QTextEdit	0x782db0	7	8	QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+QTextEdit	0x782cd4	54	0	QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+QTimer	0x77e270	11	0	QObject
+QTreeView	0x7870fc	7	8	QAbstractItemView > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+QTreeView	0x786f94	89	0	QAbstractItemView > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+QVBoxLayout	0x77e61c	16	8	QBoxLayout > QLayout > QObject > QLayoutItem
+QVBoxLayout	0x77e5d4	16	0	QBoxLayout > QLayout > QObject > QLayoutItem
+QWidget	0x77f61c	7	8	QObject > QPaintDevice
+QWidget	0x77f564	45	0	QObject > QPaintDevice
+RangeSpinbox	0x79c750	7	8	QAbstractSpinBox > QWidget > QObject > QPaintDevice
+RangeSpinbox	0x79c684	50	0	QAbstractSpinBox > QWidget > QObject > QPaintDevice
+ScreenshotTaker	0x78711c	12	0	QThread > QObject
+ScriptDelegate	0x79c7fc	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+ScriptEditorWidget	0x788f64	7	8	QDockWidget > QWidget > QObject > QPaintDevice
+ScriptEditorWidget	0x788eac	45	0	QDockWidget > QWidget > QObject > QPaintDevice
+ScriptInfoSqliteDb	0x78b798	1	0	WindSqliteDb
+ScriptsWidget	0x79d0fc	7	8	QWidget > QObject > QPaintDevice
+ScriptsWidget	0x79d044	45	0	QWidget > QObject > QPaintDevice
+ScriptsWidgetTab	0x79d644	7	8	QWidget > QObject > QPaintDevice
+ScriptsWidgetTab	0x79d58c	45	0	QWidget > QObject > QPaintDevice
+ServerItem	0x786d1c	8	0	QStandardItem
+SettingsStorage	0x789914	11	0	QObject
+SpecialAreasDelegate	0x79e28c	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+SpecialAreasWidget	0x79e26c	7	8	QWidget > QObject > QPaintDevice
+SpecialAreasWidget	0x79e1b4	45	0	QWidget > QObject > QPaintDevice
+SuppliesDelegate	0x79f544	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+SuppliesModel	0x79f3b4	45	0	QStandardItemModel > QAbstractItemModel > QObject
+SuppliesProfileDelegate	0x79ec2c	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+SuppliesProfileWidget	0x79ec0c	7	8	QWidget > QObject > QPaintDevice
+SuppliesProfileWidget	0x79eb54	45	0	QWidget > QObject > QPaintDevice
+SuppliesWidget	0x79f524	7	8	QWidget > QObject > QPaintDevice
+SuppliesWidget	0x79f46c	45	0	QWidget > QObject > QPaintDevice
+SupplyRuleWidget	0x79ed4c	7	8	QWidget > QObject > QPaintDevice
+SupplyRuleWidget	0x79ec94	45	0	QWidget > QObject > QPaintDevice
+TargetingListDelegate	0x7a063c	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+TargetingProfileDelegate	0x7a1cf4	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+TargetingProfileTableModel	0x7a0584	45	0	QStandardItemModel > QAbstractItemModel > QObject
+TargetingProfileTableView	0x7a0804	7	8	QTableView > QAbstractItemView > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+TargetingProfileTableView	0x7a06a4	87	0	QTableView > QAbstractItemView > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+TargetingProfileWidget	0x7a0564	7	8	QWidget > QObject > QPaintDevice
+TargetingProfileWidget	0x7a04ac	45	0	QWidget > QObject > QPaintDevice
+TargetingTableModel	0x7a1b64	45	0	QStandardItemModel > QAbstractItemModel > QObject
+TargetingWidget	0x7a1cd4	7	8	QWidget > QObject > QPaintDevice
+TargetingWidget	0x7a1c1c	45	0	QWidget > QObject > QPaintDevice
+TibiaInput	0x7a2f1c	12	0	QThread > QObject
+TibiaItemWidget	0x78a524	7	8	QWidget > QObject > QPaintDevice
+TibiaItemWidget	0x78a46c	45	0	QWidget > QObject > QPaintDevice
+WaypointsDelegate	0x7a39ac	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+WaypointsTableModel	0x7a3774	45	0	QStandardItemModel > QAbstractItemModel > QObject
+WaypointsTableView	0x7a398c	7	8	QTableView > QAbstractItemView > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+WaypointsTableView	0x7a382c	87	0	QTableView > QAbstractItemView > QAbstractScrollArea > QFrame > QWidget > QObject > QPaintDevice
+WaypointsWidget	0x7a3754	7	8	QWidget > QObject > QPaintDevice
+WaypointsWidget	0x7a369c	45	0	QWidget > QObject > QPaintDevice
+WindAlphaWidget	0x77c3f4	7	8	AlphaStorage > QWidget > QObject > QPaintDevice
+WindAlphaWidget	0x77c33c	45	0	AlphaStorage > QWidget > QObject > QPaintDevice
+WindAlphaWidgetGl	0x77c4f4	7	8	AlphaStorage > QGLWidget > QWidget > QObject > QPaintDevice
+WindAlphaWidgetGl	0x77c414	55	0	AlphaStorage > QGLWidget > QWidget > QObject > QPaintDevice
+WindConsoleEvent	0x77d6e8	1	0	WindEvent > QEvent
+WindEvent	0x77bfd0	1	0	QEvent
+WindEventFourData	0x797458	1	0	WindEvent > QEvent
+WindEventOneData	0x77bfd8	1	0	WindEvent > QEvent
+WindEventThreeData	0x78b7ec	1	0	WindEvent > QEvent
+WindEventTwoData	0x77c30c	1	0	WindEvent > QEvent
+WindHighlighter	0x787f4c	12	0	QSyntaxHighlighter > QObject
+WindSqlThread	0x78b75c	12	0	QThread > QObject
+WindSqliteDb	0x78b790	1	0	
+WindThread	0x78b7b8	12	0	QThread > QObject
+WindTrayMessageEvent	0x797460	1	0	WindEvent > QEvent
+WindbotConsole	0x78ba50	7	8	QDialog > QWidget > QObject > QPaintDevice
+WindbotConsole	0x78b984	50	0	QDialog > QWidget > QObject > QPaintDevice
+WindbotConsoleDelegate	0x78ba74	25	0	QItemDelegate > QAbstractItemDelegate > QObject
+WorldInfoSqliteDb	0x78b7b0	1	0	ScriptInfoSqliteDb > WindSqliteDb
+askcharactervocation	0x78d170	7	8	QDialog > QWidget > QObject > QPaintDevice
+askcharactervocation	0x78d0a4	50	0	QDialog > QWidget > QObject > QPaintDevice
+std::bad_alloc	0x77e264	2	0	std::exception
+type_info	0x738238	1	0	

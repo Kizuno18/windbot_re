@@ -72,6 +72,8 @@ are documented from static metadata (RTTI, strings, Lua catalogs).
 | [13-rea-analysis](docs/13-rea-analysis.md) | REA 6.7.0 artifact/desktop notes |
 | [14-client-1076-offsets](docs/14-client-1076-offsets.md) | Client memory map (live-validated) |
 | [15-vmp-lab](docs/15-vmp-lab.md) | windows-lab / NoVmp applicability |
+| [16-static-protection-profile](docs/16-static-protection-profile.md) | VMP sections/entropy/imports, 2.6.2 vs 2.8.30 |
+| [17-subsystem-map](docs/17-subsystem-map.md) | RTTI hierarchies × strings × Lua API by subsystem |
 | [history](docs/history.md) | Wayback timeline |
 
 ## Tools
@@ -79,3 +81,6 @@ are documented from static metadata (RTTI, strings, Lua catalogs).
 - `tools/pe_recon.py`
 - `tools/patch_client.py`
 - `tools/read_1076.py`
+- `tools/vmp_section_profile.py` (section/entropy/import profile)
+- `tools/rtti_vtables.py` (MSVC RTTI → vtables/bases)
+- `tools/lua_subsystem_map.py` (Lua API ↔ binary ↔ shipped Lua)

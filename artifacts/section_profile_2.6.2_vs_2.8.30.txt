@@ -1,0 +1,76 @@
+=== 2.6.2 sha256=5b8217d2c36880c152c368c7cb0d4f7ab76c0b5b5d2ebaa7847df8358141172b size=11777536
+TimeDateStamp=0x54f585f9 Linker=10.0 OS=5.1 Subsys=2 DllChar=0x8100 Chars=0x103 ImageBase=0x400000 SizeOfImage=0x2413000 Checksum=0xb3df0d calc=0xb3df0d
+.text   VA=0x0001000 VS=0x032715c RAW=0x0000000 flags=0x60000020 H=0.000 win64k n=0 min=0.00 max=0.00 <6.5:0 >7.9:0 
+.rdata  VA=0x0329000 VS=0x00dd364 RAW=0x0000000 flags=0x40000040 H=0.000 win64k n=0 min=0.00 max=0.00 <6.5:0 >7.9:0 
+.data   VA=0x0407000 VS=0x0a39624 RAW=0x0000000 flags=0xc0000040 H=0.000 win64k n=0 min=0.00 max=0.00 <6.5:0 >7.9:0 
+.vmp0   VA=0x0e41000 VS=0x0a94b2c RAW=0x0000000 flags=0xe0000060 H=0.000 win64k n=0 min=0.00 max=0.00 <6.5:0 >7.9:0 
+.tls    VA=0x18d6000 VS=0x0000018 RAW=0x0000200 flags=0xc0000040 H=-0.000 win64k n=1 min=-0.00 max=-0.00 <6.5:1 >7.9:0 
+.vmp1   VA=0x18d7000 VS=0x0ae0548 RAW=0x0ae0600 flags=0xe0000060 H=8.000 win64k n=175 min=5.05 max=8.00 <6.5:1 >7.9:172 <-EP
+.rsrc   VA=0x23b8000 VS=0x005a9ef RAW=0x005aa00 flags=0x40000040 H=3.541 win64k n=6 min=2.39 max=3.94 <6.5:6 >7.9:0 
+EP RVA=0x23a1e32
+DataDirs: [('EXPORT', '0x18f2a28', '0xc50'), ('IMPORT', '0x1900844', '0x1f4'), ('RESOURCE', '0x23b8000', '0x5a9ef'), ('DEBUG', '0x23b4ed0', '0x1c'), ('TLS', '0x18e1920', '0x20'), ('LOAD_CONFIG', '0x23b4e4c', '0x40'), ('IAT', '0x23a3000', '0xdc')]
+ IMP OPENGL32.dll ['glGetIntegerv']
+ IMP GDI32.dll ['CreateDIBSection']
+ IMP USER32.dll ['UpdateLayeredWindow']
+ IMP DSOUND.dll ['#1']
+ IMP WINMM.dll ['mmioRead']
+ IMP PSAPI.DLL ['GetModuleFileNameExW']
+ IMP WS2_32.dll ['socket']
+ IMP Qt5OpenGL.dll ['?updateOverlayGL@QGLWidget@@UAEXXZ']
+ IMP Qt5Widgets.dll ['?scale@QGraphicsView@@QAEXNN@Z']
+ IMP Qt5Gui.dll ['?globalPos@QMouseEvent@@QBE?AVQPoint@@XZ']
+ IMP Qt5Core.dll ['?property@QObject@@QBE?AVQVariant@@PBD@Z']
+ IMP Qt5Network.dll ['??1QNetworkRequest@@QAE@XZ']
+ IMP Qt5Svg.dll ['??1QSvgRenderer@@UAE@XZ']
+ IMP KERNEL32.dll ['GetVersionExW', 'GetVersionExA', 'CloseHandle']
+ IMP ADVAPI32.dll ['RegQueryValueExA']
+ IMP SHELL32.dll ['SHGetFolderPathW']
+ IMP ole32.dll ['CoSetProxyBlanket']
+ IMP OLEAUT32.dll ['VariantInit']
+ IMP MSVCR100.dll ['remove']
+ IMP MSVCP100.dll ['?_Xlength_error@std@@YAXPBD@Z']
+ IMP IPHLPAPI.DLL ['GetBestInterface']
+ IMP VERSION.dll ['VerQueryValueW']
+ IMP KERNEL32.dll ['GetModuleFileNameW']
+ IMP KERNEL32.dll ['GetModuleHandleA', 'LoadLibraryA', 'LocalAlloc', 'LocalFree', 'GetModuleFileNameA', 'ExitProcess']
+ TLS callbacks@ 0x1ce1938
+ overlay: 0
+ Rich: [9981587, 2, 10385007, 14, 11171439, 20, 10263835, 2, 10253935, 14, 0, 1, 11181339, 61, 1647610, 2, 11236975, 6, 9664521, 29, 65536, 2628, 8615945, 1, 11499119, 159, 10122863, 1, 10319471, 1]
+=== 2.8.30 sha256=756403d367e578ed7269eb967d532edd1e16916f9593e8c9ed92acf148066be3 size=15796736
+TimeDateStamp=0x59b7d9a1 Linker=10.0 OS=5.1 Subsys=2 DllChar=0x8100 Chars=0x103 ImageBase=0x400000 SizeOfImage=0x194a000 Checksum=0xf1dc8c calc=0xf1dc8c
+.text   VA=0x0001000 VS=0x032e70c RAW=0x032e800 flags=0x60000020 H=6.619 win64k n=51 min=4.95 max=6.72 <6.5:30 >7.9:0 
+.rdata  VA=0x0330000 VS=0x00dead6 RAW=0x00dec00 flags=0x40000040 H=6.329 win64k n=14 min=3.46 max=7.98 <6.5:9 >7.9:3 
+.data   VA=0x040f000 VS=0x0a3ab04 RAW=0x0005e00 flags=0xc0000040 H=3.947 win64k n=1 min=3.95 max=3.95 <6.5:1 >7.9:0 
+.vmp0   VA=0x0e4a000 VS=0x09d7065 RAW=0x09d7200 flags=0xe0000060 H=7.450 win64k n=158 min=5.88 max=7.66 <6.5:1 >7.9:0 
+.tls    VA=0x1822000 VS=0x0000018 RAW=0x0000200 flags=0xc0000040 H=-0.000 win64k n=1 min=-0.00 max=-0.00 <6.5:1 >7.9:0 
+.vmp1   VA=0x1823000 VS=0x00cb58e RAW=0x00cb600 flags=0xe0000060 H=7.983 win64k n=13 min=7.54 max=7.99 <6.5:0 >7.9:11 <-EP
+.rsrc   VA=0x18ef000 VS=0x005a9ef RAW=0x005aa00 flags=0x40000040 H=3.541 win64k n=6 min=2.39 max=3.94 <6.5:6 >7.9:0 
+EP RVA=0x18912a5
+DataDirs: [('EXPORT', '0x1820415', '0xc50'), ('IMPORT', '0x18901d0', '0x1f4'), ('RESOURCE', '0x18ef000', '0x5a9ef'), ('DEBUG', '0x3339a0', '0x1c'), ('TLS', '0x18d793c', '0x20'), ('LOAD_CONFIG', '0x3a3fa8', '0x40'), ('IAT', '0x1893000', '0xdc')]
+ IMP OPENGL32.dll ['glGetIntegerv']
+ IMP GDI32.dll ['ExtCreateRegion']
+ IMP USER32.dll ['SetWindowPos']
+ IMP DSOUND.dll ['#1']
+ IMP WINMM.dll ['mmioAscend']
+ IMP PSAPI.DLL ['GetModuleFileNameExW']
+ IMP WS2_32.dll ['WSAGetLastError']
+ IMP Qt5OpenGL.dll ['?metaObject@QGLWidget@@UBEPBUQMetaObject@@XZ']
+ IMP Qt5Widgets.dll ['?expandingDirections@QBoxLayout@@UBE?AV?$QFlags@W4Orientation@Qt@@@@XZ']
+ IMP Qt5Gui.dll ['?drawPath@QPainter@@QAEXABVQPainterPath@@@Z']
+ IMP Qt5Core.dll ['?pos@QRegExp@@QAEHH@Z']
+ IMP Qt5Network.dll ['?qt_metacast@QNetworkAccessManager@@UAEPAXPBD@Z']
+ IMP Qt5Svg.dll ['??0QSvgRenderer@@QAE@ABVQByteArray@@PAVQObject@@@Z']
+ IMP KERNEL32.dll ['GetVersionExW', 'GetVersionExA', 'DuplicateHandle']
+ IMP ADVAPI32.dll ['RegQueryValueExA']
+ IMP SHELL32.dll ['SHGetFolderPathW']
+ IMP ole32.dll ['CoSetProxyBlanket']
+ IMP OLEAUT32.dll ['VariantInit']
+ IMP MSVCR100.dll ['_acmdln']
+ IMP MSVCP100.dll ['?_Orphan_all@_Container_base0@std@@QAEXXZ']
+ IMP IPHLPAPI.DLL ['GetBestInterface']
+ IMP VERSION.dll ['VerQueryValueW']
+ IMP KERNEL32.dll ['GetModuleFileNameW']
+ IMP KERNEL32.dll ['GetModuleHandleA', 'LoadLibraryA', 'LocalAlloc', 'LocalFree', 'GetModuleFileNameA', 'ExitProcess']
+ TLS callbacks@ 0x1cd7954
+ overlay: 0
+ Rich: [9981587, 2, 10394907, 14, 11246875, 5, 10263835, 6, 10253935, 10, 0, 1, 11181339, 81, 1647610, 2, 11236975, 1, 9664521, 29, 65536, 2649, 8615945, 1, 11509019, 159, 10132763, 1, 10329371, 1]

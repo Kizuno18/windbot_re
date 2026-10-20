@@ -1,0 +1,802 @@
+entry	catalog_section	subsystem	in_binary_2.8.30	string_sections_2.8.30	uses_shipped_lua_2.6.2	uses_shipped_lua_2.8.30
+cast	events/character	healing/supplies	yes	.rdata	20	20
+closeclient	events/character	client memory/state (HookManager)	yes	.rdata	3	3
+connect	events/character	network/session	yes	.rdata	1	1
+dismount	events/character	client memory/state (HookManager)	yes	.rdata	0	0
+logout	events/character	network/session	yes	.rdata	25	21
+mount	events/character	client memory/state (HookManager)	yes	.rdata	2	2
+move	events/character	client memory/state (HookManager)	yes	.rdata	25	27
+moveto	events/character	cavebot	yes	.rdata	3	3
+npcsay	events/character	client memory/state (HookManager)	yes	.rdata	11	9
+reachlocation	events/character	cavebot	yes	.rdata	17	17
+reconnect	events/character	network/session	yes	.rdata	0	0
+say	events/character	client memory/state (HookManager)	yes	.rdata	13	16
+setattackmode	events/character	targeting	yes	.rdata	6	6
+setpvpmode	events/character	client memory/state (HookManager)	yes	.rdata	0	0
+turn	events/character	client memory/state (HookManager)	yes	.rdata	7	7
+xlog	events/character	network/session	yes	.rdata	1	1
+attack	events/creature	targeting	yes	.rdata	22	22
+follow	events/creature	targeting	yes	.rdata	1	1
+reachcreature	events/creature	cavebot	yes	.rdata	2	2
+browsefield	events/item	looting/items	—	-	4	5
+buyitems	events/item	looting/items	yes	.rdata	4	4
+buyitemsmarket	events/item	looting/items	yes	.rdata	0	0
+changepage	events/item	looting/items	yes	.rdata	1	1
+closewindows	events/item	looting/items	yes	.rdata	5	6
+contextmenu	events/item	looting/items	yes	.rdata	1	1
+crosshair	events/item	looting/items	yes	.rdata	14	13
+eatfood	events/item	looting/items	yes	.rdata	3	3
+equipitem	events/item	looting/items	yes	.rdata	16	14
+higherwindows	events/item	looting/items	yes	.rdata	5	5
+minimizewindows	events/item	looting/items	yes	.rdata	2	2
+moveitems	events/item	looting/items	yes	.rdata	44	44
+moveitemsonto	events/item	looting/items	yes	.rdata	4	4
+nextpage	events/item	looting/items	yes	.rdata	0	0
+openbattlelist	events/item	targeting	yes	.rdata	0	2
+openitem	events/item	looting/items	yes	.rdata	15	16
+previouspage	events/item	looting/items	yes	.rdata	0	0
+reachgrounditem	events/item	cavebot	yes	.rdata	4	6
+reopenwindows	events/item	looting/items	yes	.rdata	0	0
+resizewindows	events/item	looting/items	yes	.rdata	5	5
+restorewindows	events/item	looting/items	yes	.rdata	1	1
+sellitems	events/item	looting/items	yes	.rdata	5	5
+sellitemsmarket	events/item	looting/items	yes	.rdata	0	0
+useitem	events/item	looting/items	yes	.rdata	15	17
+useitemon	events/item	looting/items	yes	.rdata	20	20
+useoncreature	events/item	targeting	yes	.rdata	10	10
+writetext	events/item	looting/items	yes	.rdata	0	0
+creatureinfo	functions/access	targeting	yes	.rdata	6	6
+effectinfo	functions/access	scripting core/db/util	yes	.rdata	0	0
+emptycount	functions/access	scripting core/db/util	yes	.rdata	2	2
+exptolevel	functions/access	scripting core/db/util	yes	.rdata	2	2
+itemcost	functions/access	looting/items	yes	.rdata	1	1
+itemcount	functions/access	looting/items	yes	.rdata	117	120
+itemflags	functions/access	looting/items	yes	.rdata	0	0
+itemid	functions/access	looting/items	yes	.rdata	83	91
+iteminfo	functions/access	looting/items	yes	.rdata	30	34
+itemname	functions/access	looting/items	yes	.rdata	43	44
+itemproperty	functions/access	looting/items	yes	.rdata	31	26
+itemvalue	functions/access	looting/items	yes	.rdata	4	4
+itemweight	functions/access	looting/items	yes	.rdata	5	5
+outfitinfo	functions/access	scripting core/db/util	yes	.rdata	0	0
+runeinfo	functions/access	healing/supplies	yes	.rdata	1	1
+servercount	functions/access	network/session	yes	.rdata	1	1
+serverusedcount	functions/access	network/session	yes	.rdata	1	1
+spellinfo	functions/access	healing/supplies	yes	.rdata	25	25
+timetolevel	functions/access	scripting core/db/util	yes	.rdata	5	5
+tradecount	functions/access	scripting core/db/util	yes	.rdata	9	9
+windowcount	functions/access	scripting core/db/util	yes	.rdata	13	9
+clearlastonto	functions/bot-control	scripting core/db/util	yes	.rdata	0	0
+flashclient	functions/bot-control	scripting core/db/util	yes	.rdata	2	2
+focusclient	functions/bot-control	scripting core/db/util	yes	.rdata	1	1
+geteventbyid	functions/bot-control	scripting core/db/util	yes	.rdata	0	0
+getsetting	functions/bot-control	cavebot	yes	.rdata	46	44
+ignorecreature	functions/bot-control	targeting	yes	.rdata	2	2
+listas	functions/bot-control	scripting core/db/util	yes	.rdata	30	30
+listcolor	functions/bot-control	scripting core/db/util	yes	.rdata	0	0
+loadsettings	functions/bot-control	cavebot	yes	.rdata	0	0
+messagebox	functions/bot-control	scripting core/db/util	yes	.rdata	0	0
+minimizeclient	functions/bot-control	scripting core/db/util	yes	.rdata	0	0
+openbrowser	functions/bot-control	scripting core/db/util	yes	.rdata	1	1
+pausebot	functions/bot-control	scripting core/db/util	yes	.rdata	12	1
+pauseinput	functions/bot-control	scripting core/db/util	yes	.rdata	0	0
+pausewalking	functions/bot-control	scripting core/db/util	yes	.rdata	23	27
+playsound	functions/bot-control	scripting core/db/util	yes	.rdata	17	5
+restoreclient	functions/bot-control	scripting core/db/util	yes	.rdata	0	0
+screenshot	functions/bot-control	scripting core/db/util	yes	.rdata	13	13
+setsetting	functions/bot-control	cavebot	yes	.rdata	40	36
+showbot	functions/bot-control	scripting core/db/util	yes	.rdata	2	2
+switchprofile	functions/bot-control	scripting core/db/util	yes	.rdata	0	0
+terminateevent	functions/bot-control	scripting core/db/util	yes	.rdata	2	2
+traymessage	functions/bot-control	scripting core/db/util	yes	.rdata	0	0
+traytooltip	functions/bot-control	scripting core/db/util	yes	.rdata	0	0
+addspecialarea	functions/cavebot	cavebot	yes	.rdata	1	1
+addwaypoint	functions/cavebot	cavebot	yes	.rdata	1	1
+filteruseroptions	functions/cavebot	cavebot	yes	.rdata	0	0
+getlootingdestination	functions/cavebot	cavebot	yes	.rdata	8	8
+getlurelocation	functions/cavebot	cavebot	yes	.rdata	0	0
+getuseroption	functions/cavebot	cavebot	yes	.rdata	0	0
+gotolabel	functions/cavebot	cavebot	yes	.rdata	6	6
+increaseamountbought	functions/cavebot	cavebot	yes	.rdata	0	0
+increaseamountlooted	functions/cavebot	cavebot	yes	.rdata	3	5
+increaseamountused	functions/cavebot	cavebot	yes	.rdata	1	1
+increasemoneyspent	functions/cavebot	cavebot	yes	.rdata	0	0
+islocation	functions/cavebot	cavebot	yes	.rdata	3	3
+moneytowithdraw	functions/cavebot	cavebot	yes	.rdata	1	1
+removespecialarea	functions/cavebot	cavebot	yes	.rdata	1	1
+removewaypoint	functions/cavebot	cavebot	yes	.rdata	1	1
+resetcharactertime	functions/cavebot	cavebot	yes	.rdata	1	1
+resetexpcounter	functions/cavebot	cavebot	yes	.rdata	1	1
+resetlootcounter	functions/cavebot	cavebot	yes	.rdata	1	1
+setlootingdestination	functions/cavebot	cavebot	yes	.rdata	0	0
+setlurelocation	functions/cavebot	cavebot	yes	.rdata	0	0
+setrefilling	functions/cavebot	cavebot	yes	.rdata	0	0
+setuseroption	functions/cavebot	cavebot	yes	.rdata	0	0
+setuseroptionscript	functions/cavebot	cavebot	yes	.rdata	0	0
+showuseroption	functions/cavebot	cavebot	yes	.rdata	0	0
+clientitemhotkey	functions/client	looting/items	yes	.rdata	16	15
+clientspellhotkey	functions/client	healing/supplies	yes	.rdata	2	2
+clienttexthotkey	functions/client	client memory/state (HookManager)	yes	.rdata	1	1
+cooldown	functions/client	healing/supplies	yes	.rdata	11	11
+getarearunetile	functions/client	healing/supplies	yes	.rdata	4	4
+getcontainer	functions/client	looting/items	yes	.rdata	22	25
+getcreature	functions/client	targeting	yes	.rdata	2	2
+getcreaturebyid	functions/client	targeting	yes	.rdata	4	4
+getcreaturebyname	functions/client	targeting	yes	.rdata	1	1
+getplayerinfo	functions/client	client memory/state (HookManager)	yes	.rdata	0	0
+gettile	functions/client	client memory/state (HookManager)	yes	.rdata	19	19
+ischannel	functions/client	client memory/state (HookManager)	yes	.rdata	9	9
+isitemontile	functions/client	looting/items	yes	.rdata	11	11
+maround	functions/client	targeting	yes	.rdata	5	5
+paround	functions/client	targeting	yes	.rdata	4	4
+tileclickable	functions/client	client memory/state (HookManager)	yes	.rdata	4	7
+tilereachable	functions/client	cavebot	yes	.rdata	14	14
+tileshootable	functions/client	client memory/state (HookManager)	yes	.rdata	4	4
+topitem	functions/client	looting/items	yes	.rdata	45	35
+toplookitem	functions/client	looting/items	yes	.rdata	0	0
+topmoveitem	functions/client	looting/items	yes	.rdata	1	3
+topuseitem	functions/client	looting/items	yes	.rdata	3	7
+topuseonitem	functions/client	looting/items	yes	.rdata	1	2
+DB:getvalue	functions/database	scripting core/db/util	—	.rdata	4	4
+DB:setvalue	functions/database	scripting core/db/util	—	.rdata	3	3
+opendatabase	functions/database	scripting core/db/util	yes	.rdata	0	0
+auto	functions/functionality	scripting core/db/util	yes	.rdata	31	31
+iskeypressed	functions/functionality	scripting core/db/util	yes	.rdata	11	11
+keyevent	functions/functionality	scripting core/db/util	yes	.rdata	5	5
+print	functions/functionality	scripting core/db/util	yes	.rdata	6	6
+printerror	functions/functionality	scripting core/db/util	yes	.rdata	29	32
+setfavoritedepot	functions/functionality	looting/items	yes	.rdata	0	0
+setitemwarnings	functions/functionality	looting/items	yes	.rdata	4	4
+setlifetime	functions/functionality	scripting core/db/util	yes	.rdata	5	6
+setpriority	functions/functionality	scripting core/db/util	yes	.rdata	1	1
+setdelayedload	functions/functionality	scripting core/db/util	—	-	0	0
+wait	functions/functionality	scripting core/db/util	yes	.rdata	73	78
+waitforevents	functions/functionality	scripting core/db/util	yes	.rdata	3	3
+navpm	functions/navigation	navigation	yes	.rdata	0	0
+navsay	functions/navigation	navigation	yes	.rdata	0	0
+navsendping	functions/navigation	navigation	yes	.rdata	1	1
+ground	functions/string	scripting core/db/util	yes	.rdata	95	96
+num	functions/string	scripting core/db/util	yes	.rdata	35	35
+time	functions/string	scripting core/db/util	yes	.rdata	107	109
+timeshort	functions/string	scripting core/db/util	yes	.rdata	2	2
+tohex	functions/string	scripting core/db/util	yes	.rdata	0	0
+addgradcolors	huds/basic	HUD/widgets	yes	.rdata	32	32
+createtexture	huds/basic	HUD/widgets	yes	.rdata	5	5
+drawchord	huds/basic	HUD/widgets	yes	.rdata	0	0
+drawcircle	huds/basic	HUD/widgets	yes	.rdata	4	4
+draweffect	huds/basic	HUD/widgets	yes	.rdata	0	0
+drawicon	huds/basic	HUD/widgets	yes	.rdata	2	2
+drawimage	huds/basic	HUD/widgets	yes	.rdata	1	1
+drawitem	huds/basic	looting/items	yes	.rdata	3	3
+drawline	huds/basic	HUD/widgets	yes	.rdata	11	11
+drawoutfit	huds/basic	HUD/widgets	yes	.rdata	0	0
+drawpie	huds/basic	HUD/widgets	yes	.rdata	3	3
+drawrect	huds/basic	HUD/widgets	yes	.rdata	12	12
+drawroundrect	huds/basic	HUD/widgets	yes	.rdata	30	30
+drawspellicon	huds/basic	healing/supplies	yes	.rdata	0	0
+drawtext	huds/basic	HUD/widgets	yes	.rdata	53	53
+getposition	huds/basic	HUD/widgets	yes	.rdata	6	6
+setbackgroundtexture	huds/basic	HUD/widgets	yes	.rdata	3	3
+setbordercolor	huds/basic	HUD/widgets	yes	.rdata	14	14
+setcompositionmode	huds/basic	HUD/widgets	yes	.rdata	20	20
+setfillstyle	huds/basic	HUD/widgets	yes	.rdata	48	48
+setfontborder	huds/basic	HUD/widgets	yes	.rdata	2	2
+setfontcolor	huds/basic	HUD/widgets	yes	.rdata	11	11
+setfontname	huds/basic	HUD/widgets	yes	.rdata	0	0
+setfontsize	huds/basic	HUD/widgets	yes	.rdata	9	9
+setfontstyle	huds/basic	HUD/widgets	yes	.rdata	19	19
+setfontweight	huds/basic	HUD/widgets	yes	.rdata	0	0
+setposition	huds/basic	HUD/widgets	yes	.rdata	18	18
+filterinput	huds/input	HUD/widgets	yes	.rdata	8	8
+requestfloat	huds/input	HUD/widgets	yes	.rdata	0	0
+requestint	huds/input	HUD/widgets	yes	.rdata	0	0
+requestlist	huds/input	HUD/widgets	yes	.rdata	0	0
+requestlistitem	huds/input	looting/items	yes	.rdata	0	0
+requestmenu	huds/input	HUD/widgets	yes	.rdata	0	0
+requestmenuitem	huds/input	looting/items	yes	.rdata	0	0
+requesttext	huds/input	HUD/widgets	yes	.rdata	0	0
+isscript	huds/listas	HUD/widgets	yes	.rdata	2	2
+scriptlistcolor	huds/listas	HUD/widgets	yes	.rdata	1	1
+scriptlistname	huds/listas	HUD/widgets	yes	.rdata	2	2
+getbararea	huds/positioning	HUD/widgets	yes	.rdata	4	4
+getnamearea	huds/positioning	HUD/widgets	yes	.rdata	3	3
+getobjectarea	huds/positioning	HUD/widgets	yes	.rdata	9	9
+measurestring	huds/positioning	HUD/widgets	yes	.rdata	27	27
+killhudwindow	huds/settings	HUD/widgets	yes	.rdata	0	0
+selecthud	huds/settings	HUD/widgets	yes	.rdata	14	14
+setantialiasing	huds/settings	HUD/widgets	yes	.rdata	2	2
+setbkgcolorxp	huds/settings	HUD/widgets	yes	.rdata	0	0
+setcurrenthud	huds/settings	HUD/widgets	yes	.rdata	0	0
+setfixedsize	huds/settings	HUD/widgets	yes	.rdata	8	8
+setopengl	huds/settings	HUD/widgets	yes	.rdata	1	1
+spawnhudwindow	huds/settings	HUD/widgets	yes	.rdata	0	0
+useworldhud	huds/settings	network/session	yes	.rdata	5	5
+DB:sectionvalue	iterators/iterators	scripting core/db/util	—	.rdata	0	0
+creature	iterators/iterators	targeting	yes	.rdata	128	131
+deadcreature	iterators/iterators	targeting	—	-	0	0
+deathtimer	iterators/iterators	scripting core/db/util	yes	.rdata	1	1
+lootingitem	iterators/iterators	looting/items	—	-	7	7
+message	iterators/iterators	scripting core/db/util	yes	.rdata	12	34
+navchar	iterators/iterators	navigation	—	-	2	2
+navping	iterators/iterators	navigation	yes	.rdata	2	2
+newanimatedtext	iterators/iterators	scripting core/db/util	—	-	0	0
+neweffect	iterators/iterators	scripting core/db/util	—	-	0	0
+newmessage	iterators/iterators	scripting core/db/util	—	-	12	12
+newprojectile	iterators/iterators	scripting core/db/util	—	-	1	1
+queuedevent	iterators/iterators	scripting core/db/util	—	-	0	0
+settingsentry	iterators/iterators	cavebot	—	-	9	10
+spellinfo	iterators/iterators	healing/supplies	yes	.rdata	25	25
+supplyitem	iterators/iterators	healing/supplies	—	-	4	4
+vipentry	iterators/iterators	scripting core/db/util	—	-	0	0
+.content	types/animatedtext	client memory/state (HookManager)	yes	.rdata	44	47
+.hasproperty(str)	types/animatedtext	client memory/state (HookManager)	yes	-	0	0
+.objtype	types/animatedtext	client memory/state (HookManager)	yes	.rdata	7	7
+.posx	types/animatedtext	client memory/state (HookManager)	yes	.rdata	202	210
+.posy	types/animatedtext	client memory/state (HookManager)	yes	.rdata	203	211
+.time	types/animatedtext	client memory/state (HookManager)	yes	.rdata	107	109
+.type	types/animatedtext	client memory/state (HookManager)	yes	.rdata	809	801
+.curpage	types/container	looting/items	yes	.rdata	0	0
+.emptycount	types/container	looting/items	yes	.rdata	2	2
+.hashigher	types/container	looting/items	yes	.rdata	8	8
+.hasproperty(str)	types/container	looting/items	yes	-	0	0
+.index	types/container	looting/items	yes	.rdata	97	110
+.isopen	types/container	looting/items	yes	.rdata	22	24
+.ispage	types/container	looting/items	yes	.rdata	1	1
+.item	types/container	looting/items	yes	.rdata	225	239
+.itemcount	types/container	looting/items	yes	.rdata	117	120
+.itemid	types/container	looting/items	yes	.rdata	83	91
+.lastpage	types/container	looting/items	yes	.rdata	2	2
+.maxcount	types/container	looting/items	yes	.rdata	8	8
+.name	types/container	looting/items	yes	.rdata	938	950
+.objtype	types/container	looting/items	yes	.rdata	7	7
+.addon	types/creature	client memory/state (HookManager)	yes	.rdata	1	1
+.aggressortype	types/creature	client memory/state (HookManager)	yes	.rdata	1	1
+.chestcolor	types/creature	client memory/state (HookManager)	yes	.rdata	1	1
+.dir	types/creature	client memory/state (HookManager)	yes	.rdata	119	118
+.dist	types/creature	client memory/state (HookManager)	yes	.rdata	175	164
+.feetcolor	types/creature	client memory/state (HookManager)	yes	.rdata	1	1
+.hasproperty(str)	types/creature	client memory/state (HookManager)	yes	-	0	0
+.headcolor	types/creature	client memory/state (HookManager)	yes	.rdata	1	1
+.hpcolor	types/creature	healing/supplies	yes	.rdata	4	4
+.hppc	types/creature	healing/supplies	yes	.rdata	73	73
+.id	types/creature	client memory/state (HookManager)	yes	.rdata,.vmp0	523	560
+.ignored	types/creature	client memory/state (HookManager)	yes	.rdata	4	4
+.ismonster	types/creature	targeting	yes	.rdata	11	11
+.isnpc	types/creature	client memory/state (HookManager)	yes	.rdata	4	4
+.isownsummon	types/creature	client memory/state (HookManager)	yes	.rdata	1	1
+.isplayer	types/creature	client memory/state (HookManager)	yes	.rdata	7	7
+.isreachable	types/creature	cavebot	yes	.rdata	3	3
+.isshootable	types/creature	client memory/state (HookManager)	yes	.rdata	9	9
+.issummon	types/creature	client memory/state (HookManager)	yes	.rdata	1	1
+.iswalking	types/creature	client memory/state (HookManager)	yes	.rdata	3	3
+.lastattacked	types/creature	targeting	yes	.rdata	4	4
+.lastseen	types/creature	client memory/state (HookManager)	yes	.rdata	0	0
+.legscolor	types/creature	client memory/state (HookManager)	yes	.rdata	1	1
+.lightcolor	types/creature	client memory/state (HookManager)	yes	.rdata	3	3
+.lightintensity	types/creature	client memory/state (HookManager)	yes	.rdata	1	1
+.mount	types/creature	client memory/state (HookManager)	yes	.rdata	2	2
+.name	types/creature	client memory/state (HookManager)	yes	.rdata	938	950
+.objtype	types/creature	client memory/state (HookManager)	yes	.rdata	7	7
+.onscreen	types/creature	client memory/state (HookManager)	yes	.rdata	5	5
+.outfit	types/creature	client memory/state (HookManager)	yes	.rdata	5	5
+.party	types/creature	client memory/state (HookManager)	yes	.rdata	54	54
+.posx	types/creature	client memory/state (HookManager)	yes	.rdata	202	210
+.posy	types/creature	client memory/state (HookManager)	yes	.rdata	203	211
+.posz	types/creature	client memory/state (HookManager)	yes	.rdata	216	217
+.skull	types/creature	client memory/state (HookManager)	yes	.rdata	20	20
+.speed	types/creature	client memory/state (HookManager)	yes	.rdata	4	4
+.updated	types/creature	client memory/state (HookManager)	yes	.rdata	18	21
+.walkblock	types/creature	client memory/state (HookManager)	yes	.rdata	1	1
+.warbanner	types/creature	client memory/state (HookManager)	yes	.rdata	13	13
+.hasproperty(str)	types/deathtimer	client memory/state (HookManager)	yes	-	0	0
+.killer	types/deathtimer	client memory/state (HookManager)	yes	.rdata	3	3
+.objtype	types/deathtimer	client memory/state (HookManager)	yes	.rdata	7	7
+.target	types/deathtimer	targeting	yes	.rdata	96	102
+.time	types/deathtimer	client memory/state (HookManager)	yes	.rdata	107	109
+.timeofdeath	types/deathtimer	client memory/state (HookManager)	yes	.rdata	1	1
+.hasproperty(str)	types/effect	client memory/state (HookManager)	yes	-	0	0
+.objtype	types/effect	client memory/state (HookManager)	yes	.rdata	7	7
+.posx	types/effect	client memory/state (HookManager)	yes	.rdata	202	210
+.posy	types/effect	client memory/state (HookManager)	yes	.rdata	203	211
+.timems	types/effect	client memory/state (HookManager)	yes	.rdata	61	63
+.type	types/effect	client memory/state (HookManager)	yes	.rdata	809	801
+.count	types/inventoryitem	looting/items	yes	.rdata	164	172
+.id	types/inventoryitem	looting/items	yes	.rdata,.vmp0	523	560
+.count	types/item	looting/items	yes	.rdata	164	172
+.hasproperty(str)	types/item	looting/items	yes	-	0	0
+.id	types/item	looting/items	yes	.rdata,.vmp0	523	560
+.objtype	types/item	looting/items	yes	.rdata	7	7
+.special	types/item	looting/items	yes	.rdata	4	4
+.armor	types/itemdata	looting/items	yes	.rdata	2	2
+.attack	types/itemdata	targeting	yes	.rdata	22	22
+.attackmod	types/itemdata	targeting	yes	.rdata	1	1
+.automapcolor	types/itemdata	looting/items	yes	.rdata	1	1
+.buyprice	types/itemdata	looting/items	yes	.rdata	5	5
+.category	types/itemdata	looting/items	yes	.rdata	27	27
+.clothslot	types/itemdata	looting/items	yes	.rdata	4	4
+.deathresistmod	types/itemdata	looting/items	yes	.rdata	1	1
+.defaultaction	types/itemdata	looting/items	yes	.rdata	1	1
+.defense	types/itemdata	looting/items	yes	.rdata	1	1
+.defensemod	types/itemdata	looting/items	yes	.rdata	1	1
+.destructible	types/itemdata	looting/items	yes	.rdata	1	1
+.dmgtype	types/itemdata	looting/items	yes	.rdata	2	3
+.durationtotalinmsecs	types/itemdata	looting/items	yes	.rdata	2	2
+.earthresistmod	types/itemdata	looting/items	yes	.rdata	1	1
+.enchantable	types/itemdata	looting/items	yes	.rdata	1	1
+.energyresistmod	types/itemdata	looting/items	yes	.rdata	1	1
+.fireresistmod	types/itemdata	looting/items	yes	.rdata	1	1
+.hasextradata	types/itemdata	looting/items	yes	.rdata	1	1
+.hasproperty(str)	types/itemdata	looting/items	yes	-	0	0
+.height	types/itemdata	looting/items	yes	.rdata	49	49
+.hitpercentmod	types/itemdata	looting/items	yes	.rdata	1	1
+.holyresistmod	types/itemdata	looting/items	yes	.rdata	1	1
+.iceresistmod	types/itemdata	looting/items	yes	.rdata	1	1
+.id	types/itemdata	looting/items	yes	.rdata,.vmp0	523	560
+.isanimatealways	types/itemdata	looting/items	yes	.rdata	2	2
+.isautomap	types/itemdata	looting/items	yes	.rdata	3	3
+.isavoid	types/itemdata	looting/items	yes	.rdata	4	4
+.isanimatealways	types/itemdata	looting/items	yes	.rdata	2	2
+.isbottom	types/itemdata	looting/items	yes	.rdata	4	4
+.isclip	types/itemdata	looting/items	yes	.rdata	4	4
+.isclothes	types/itemdata	looting/items	yes	.rdata	1	1
+.iscontainer	types/itemdata	looting/items	yes	.rdata	8	12
+.iscumulative	types/itemdata	looting/items	yes	.rdata	5	5
+.isdefaultaction	types/itemdata	looting/items	yes	.rdata	1	1
+.isdonthide	types/itemdata	looting/items	yes	.rdata	3	3
+.isfloorchange	types/itemdata	looting/items	yes	.rdata	2	2
+.isforceuse	types/itemdata	looting/items	yes	.rdata	2	2
+.isfullbank	types/itemdata	looting/items	yes	.rdata	4	4
+.ishang	types/itemdata	looting/items	yes	.rdata	2	2
+.isheight	types/itemdata	looting/items	yes	.rdata	4	4
+.ishookeast	types/itemdata	looting/items	yes	.rdata	2	2
+.ishooksouth	types/itemdata	looting/items	yes	.rdata	2	2
+.isignorelook	types/itemdata	looting/items	yes	.rdata	2	2
+.islenshelp	types/itemdata	looting/items	yes	.rdata	2	2
+.islight	types/itemdata	looting/items	yes	.rdata	3	3
+.isliquidcontainer	types/itemdata	looting/items	yes	.rdata	2	2
+.isliquidpool	types/itemdata	looting/items	yes	.rdata	3	3
+.islyingobject	types/itemdata	looting/items	yes	.rdata	2	2
+.ismarket	types/itemdata	looting/items	yes	.rdata	2	2
+.ismount	types/itemdata	looting/items	yes	.rdata	1	1
+.ismultiuse	types/itemdata	looting/items	yes	.rdata	2	2
+.isnomovementanimation	types/itemdata	looting/items	yes	.rdata	1	1
+.isrotate	types/itemdata	looting/items	yes	.rdata	2	2
+.isshift	types/itemdata	looting/items	yes	.rdata	2	2
+.istake	types/itemdata	looting/items	yes	.rdata	1	1
+.istop	types/itemdata	looting/items	yes	.rdata	2	2
+.istranslucent	types/itemdata	looting/items	yes	.rdata	3	3
+.isunmove	types/itemdata	looting/items	yes	.rdata	9	9
+.isunpass	types/itemdata	looting/items	yes	.rdata	6	6
+.isunsight	types/itemdata	looting/items	yes	.rdata	2	2
+.isusable	types/itemdata	looting/items	yes	.rdata	1	1
+.iswrite	types/itemdata	looting/items	yes	.rdata	2	2
+.iswriteonce	types/itemdata	looting/items	yes	.rdata	2	2
+.itemlossmod	types/itemdata	looting/items	yes	.rdata	1	1
+.layers	types/itemdata	looting/items	yes	.rdata	1	1
+.lenshelp	types/itemdata	looting/items	yes	.rdata	19	19
+.lifedrainresistmod	types/itemdata	looting/items	yes	.rdata	1	1
+.lightcolor	types/itemdata	looting/items	yes	.rdata	3	3
+.lightradius	types/itemdata	looting/items	yes	.rdata	1	1
+.lootmsgcount	types/itemdata	looting/items	yes	.rdata	0	0
+.mana	types/itemdata	healing/supplies	yes	.rdata	6	6
+.manadrainresistmod	types/itemdata	healing/supplies	yes	.rdata	1	1
+.marketcategory	types/itemdata	looting/items	yes	.rdata	9	9
+.marketrestrictlevel	types/itemdata	looting/items	yes	.rdata	2	2
+.marketrestrictprofession	types/itemdata	looting/items	yes	.rdata	2	2
+.marketshowas	types/itemdata	looting/items	yes	.rdata	2	2
+.markettradeas	types/itemdata	looting/items	yes	.rdata	2	2
+.maxdmg	types/itemdata	looting/items	yes	.rdata	1	1
+.mindmg	types/itemdata	looting/items	yes	.rdata	2	2
+.name	types/itemdata	looting/items	yes	.rdata	938	950
+.objtype	types/itemdata	looting/items	yes	.rdata	7	7
+.patterndepth	types/itemdata	looting/items	yes	.rdata	1	1
+.patternx	types/itemdata	looting/items	yes	.rdata	1	1
+.patterny	types/itemdata	looting/items	yes	.rdata	1	1
+.phase	types/itemdata	looting/items	yes	.rdata	1	1
+.physicalresistmod	types/itemdata	looting/items	yes	.rdata	1	1
+.range	types/itemdata	looting/items	yes	.rdata	189	201
+.sellprice	types/itemdata	looting/items	yes	.rdata	8	8
+.shiftx	types/itemdata	looting/items	yes	.rdata	9	9
+.shifty	types/itemdata	looting/items	yes	.rdata	9	9
+.sizeinpixels	types/itemdata	looting/items	yes	.rdata	1	1
+.specialeffect	types/itemdata	looting/items	yes	.rdata	2	3
+.specialeffectgain	types/itemdata	looting/items	yes	.rdata	1	1
+.textlimit	types/itemdata	looting/items	yes	.rdata	2	2
+.walkheight	types/itemdata	looting/items	yes	.rdata	2	2
+.walkspeed	types/itemdata	looting/items	yes	.rdata	2	2
+.weight	types/itemdata	looting/items	yes	.rdata	5	5
+.action	types/lootingdata	looting/items	yes	.rdata	5	5
+.alert	types/lootingdata	looting/items	yes	.rdata	4	5
+.amountlooted	types/lootingdata	looting/items	yes	.rdata	5	5
+.caphigherthan	types/lootingdata	looting/items	yes	.rdata	1	1
+.category	types/lootingdata	looting/items	yes	.rdata	27	27
+.condition	types/lootingdata	looting/items	yes	.rdata	17	19
+.conditionvalue	types/lootingdata	looting/items	yes	.rdata	1	1
+.count	types/lootingdata	looting/items	yes	.rdata	164	172
+.destination	types/lootingdata	looting/items	yes	.rdata	20	20
+.haslessthan	types/lootingdata	looting/items	yes	.rdata	1	1
+.hasproperty(str)	types/lootingdata	looting/items	yes	-	0	0
+.id	types/lootingdata	looting/items	yes	.rdata,.vmp0	523	560
+.lootmessage	types/lootingdata	looting/items	yes	.rdata	1	1
+.name	types/lootingdata	looting/items	yes	.rdata	938	950
+.objtype	types/lootingdata	looting/items	yes	.rdata	7	7
+.sellprice	types/lootingdata	looting/items	yes	.rdata	8	8
+.weight	types/lootingdata	looting/items	yes	.rdata	5	5
+.channel	types/message	client memory/state (HookManager)	yes	.rdata	20	32
+.content	types/message	client memory/state (HookManager)	yes	.rdata	44	47
+.hasproperty(str)	types/message	client memory/state (HookManager)	yes	-	0	0
+.level	types/message	client memory/state (HookManager)	yes	.rdata	79	83
+.objtype	types/message	client memory/state (HookManager)	yes	.rdata	7	7
+.sender	types/message	network/session	yes	.rdata	11	11
+.time	types/message	client memory/state (HookManager)	yes	.rdata	107	109
+.timestr	types/message	client memory/state (HookManager)	yes	.rdata	1	1
+.type	types/message	client memory/state (HookManager)	yes	.rdata	809	801
+.count	types/mouseinfo	client memory/state (HookManager)	yes	.rdata	164	172
+.crosshair	types/mouseinfo	client memory/state (HookManager)	yes	.rdata	14	13
+.hasproperty(str)	types/mouseinfo	client memory/state (HookManager)	yes	-	0	0
+.id	types/mouseinfo	client memory/state (HookManager)	yes	.rdata,.vmp0	523	560
+.objtype	types/mouseinfo	client memory/state (HookManager)	yes	.rdata	7	7
+.x	types/mouseinfo	client memory/state (HookManager)	yes	.data,.rdata,.text,.vmp0,.vmp1	804	803
+.y	types/mouseinfo	client memory/state (HookManager)	yes	.rdata,.text,.vmp0,.vmp1	697	701
+.z	types/mouseinfo	client memory/state (HookManager)	yes	.data,.rdata,.text,.vmp0,.vmp1	448	448
+.hasproperty(str)	types/navchar	navigation	yes	-	0	0
+.objtype	types/navchar	navigation	yes	.rdata	7	7
+.objtype	types/navchar	navigation	yes	.rdata	7	7
+.objtype	types/navchar	navigation	yes	.rdata	7	7
+.objtype	types/navchar	navigation	yes	.rdata	7	7
+.objtype	types/navchar	navigation	yes	.rdata	7	7
+.objtype	types/navchar	navigation	yes	.rdata	7	7
+.objtype	types/navchar	navigation	yes	.rdata	7	7
+.color	types/navping	navigation	yes	.rdata	126	126
+.glowcolor	types/navping	navigation	yes	.rdata	6	6
+.hasproperty(str)	types/navping	navigation	yes	-	0	0
+.objtype	types/navping	navigation	yes	.rdata	7	7
+.posx	types/navping	navigation	yes	.rdata	202	210
+.posy	types/navping	navigation	yes	.rdata	203	211
+.posz	types/navping	navigation	yes	.rdata	216	217
+.time	types/navping	navigation	yes	.rdata	107	109
+.color	types/navtarget	navigation	yes	.rdata	126	126
+.creature	types/navtarget	navigation	yes	.rdata	128	131
+.color	types/navtarget	navigation	yes	.rdata	126	126
+.hasproperty(str)	types/navtarget	navigation	yes	-	0	0
+.icon	types/navtarget	navigation	yes	.rdata	6	6
+.id	types/navtarget	navigation	yes	.rdata,.vmp0	523	560
+.isenemy	types/navtarget	navigation	yes	.rdata	4	4
+.isfriend	types/navtarget	navigation	yes	.rdata	2	2
+.isleader	types/navtarget	navigation	yes	.rdata	6	6
+.isneutral	types/navtarget	navigation	yes	.rdata	1	1
+.maxmp	types/navtarget	navigation	yes	.rdata	3	3
+.mp	types/navtarget	navigation	yes	.rdata,.vmp0	15	16
+.name	types/navtarget	navigation	yes	.rdata	938	950
+.objtype	types/navtarget	navigation	yes	.rdata	7	7
+.posx	types/navtarget	navigation	yes	.rdata	202	210
+.posy	types/navtarget	navigation	yes	.rdata	203	211
+.posz	types/navtarget	navigation	yes	.rdata	216	217
+.realname	types/navtarget	navigation	yes	.rdata	1	1
+.team	types/navtarget	navigation	yes	.rdata	11	11
+.teamname	types/navtarget	navigation	yes	.rdata	2	2
+.time	types/navtarget	navigation	yes	.rdata	107	109
+.voc	types/navtarget	navigation	yes	.rdata	15	15
+.comment	types/playerinfo	client memory/state (HookManager)	yes	.rdata	3	3
+.guild	types/playerinfo	client memory/state (HookManager)	yes	.rdata	3	3
+.hasproperty(str)	types/playerinfo	client memory/state (HookManager)	yes	-	0	0
+.level	types/playerinfo	client memory/state (HookManager)	yes	.rdata	79	83
+.name	types/playerinfo	client memory/state (HookManager)	yes	.rdata	938	950
+.objtype	types/playerinfo	client memory/state (HookManager)	yes	.rdata	7	7
+.priority	types/playerinfo	client memory/state (HookManager)	yes	.rdata	1	1
+.status	types/playerinfo	client memory/state (HookManager)	yes	.rdata	1	1
+.time	types/playerinfo	client memory/state (HookManager)	yes	.rdata	107	109
+.voc	types/playerinfo	client memory/state (HookManager)	yes	.rdata	15	15
+.vocation	types/playerinfo	client memory/state (HookManager)	yes	.rdata	11	17
+.vocshort	types/playerinfo	client memory/state (HookManager)	yes	.rdata	2	2
+.hasproperty(str)	types/point	scripting core/db/util	yes	-	0	0
+.objtype	types/point	scripting core/db/util	yes	.rdata	7	7
+.x	types/point	scripting core/db/util	yes	.data,.rdata,.text,.vmp0,.vmp1	804	803
+.y	types/point	scripting core/db/util	yes	.rdata,.text,.vmp0,.vmp1	697	701
+.fromx	types/projectile	client memory/state (HookManager)	yes	.rdata	1	7
+.fromy	types/projectile	client memory/state (HookManager)	yes	.rdata	1	7
+.hasproperty(str)	types/projectile	client memory/state (HookManager)	yes	-	0	0
+.objtype	types/projectile	client memory/state (HookManager)	yes	.rdata	7	7
+.timems	types/projectile	client memory/state (HookManager)	yes	.rdata	61	63
+.tox	types/projectile	client memory/state (HookManager)	yes	.rdata	2	8
+.toy	types/projectile	client memory/state (HookManager)	yes	.rdata,.text	2	8
+.type	types/projectile	client memory/state (HookManager)	yes	.rdata	809	801
+.bottom	types/rectangle	HUD/widgets	yes	.rdata	21	22
+.centerx	types/rectangle	HUD/widgets	yes	.rdata	18	18
+.centery	types/rectangle	HUD/widgets	yes	.rdata	18	18
+.hasproperty(str)	types/rectangle	HUD/widgets	yes	-	0	0
+.height	types/rectangle	HUD/widgets	yes	.rdata	49	49
+.left	types/rectangle	HUD/widgets	yes	.rdata	124	127
+.objtype	types/rectangle	HUD/widgets	yes	.rdata	7	7
+.right	types/rectangle	HUD/widgets	yes	.rdata	90	91
+.top	types/rectangle	HUD/widgets	yes	.rdata	58	67
+.width	types/rectangle	HUD/widgets	yes	.rdata	64	65
+.avgdmg	types/spellinfo	healing/supplies	yes	.rdata	0	0
+.cancast	types/spellinfo	healing/supplies	yes	.rdata	7	7
+.castarea	types/spellinfo	healing/supplies	yes	.rdata	10	11
+.castmode	types/spellinfo	healing/supplies	yes	.rdata	3	4
+.cooldown	types/spellinfo	healing/supplies	yes	.rdata	11	11
+.dmgtype	types/spellinfo	healing/supplies	yes	.rdata	2	3
+.duration	types/spellinfo	healing/supplies	yes	.rdata	11	12
+.group	types/spellinfo	healing/supplies	yes	.rdata	2	3
+.hasproperty(str)	types/spellinfo	healing/supplies	yes	-	0	0
+.healtype	types/spellinfo	healing/supplies	yes	.rdata	1	2
+.iconid	types/spellinfo	healing/supplies	yes	.rdata	0	1
+.itemid	types/spellinfo	healing/supplies	yes	.rdata	83	91
+.learned	types/spellinfo	healing/supplies	yes	-	1	1
+.level	types/spellinfo	healing/supplies	yes	.rdata	79	83
+.maxdmg	types/spellinfo	healing/supplies	yes	.rdata	1	1
+.mindmg	types/spellinfo	healing/supplies	yes	.rdata	2	2
+.mlevel	types/spellinfo	healing/supplies	yes	.rdata	13	14
+.mp	types/spellinfo	healing/supplies	yes	.rdata,.vmp0	15	16
+.name	types/spellinfo	healing/supplies	yes	.rdata	938	950
+.objtype	types/spellinfo	healing/supplies	yes	.rdata	7	7
+.premium	types/spellinfo	healing/supplies	yes	.rdata	2	6
+.price	types/spellinfo	healing/supplies	yes	.rdata	1	2
+.promotion	types/spellinfo	healing/supplies	yes	.rdata	1	2
+.soul	types/spellinfo	healing/supplies	yes	.rdata	7	8
+.specialeffect	types/spellinfo	healing/supplies	yes	.rdata	2	3
+.type	types/spellinfo	healing/supplies	yes	.rdata	809	801
+.vocation	types/spellinfo	healing/supplies	yes	.rdata	11	17
+.words	types/spellinfo	healing/supplies	yes	.rdata	27	28
+.amountbought	types/supplydata	healing/supplies	yes	.rdata	1	1
+.amounttobuy	types/supplydata	healing/supplies	yes	.rdata	4	4
+.amountused	types/supplydata	healing/supplies	yes	.rdata	4	4
+.buyprice	types/supplydata	healing/supplies	yes	.rdata	5	5
+.category	types/supplydata	healing/supplies	yes	.rdata	27	27
+.count	types/supplydata	healing/supplies	yes	.rdata	164	172
+.destination	types/supplydata	healing/supplies	yes	.rdata	20	20
+.downtocap	types/supplydata	healing/supplies	yes	.rdata	1	1
+.hasproperty(str)	types/supplydata	healing/supplies	yes	-	0	0
+.id	types/supplydata	healing/supplies	yes	.rdata,.vmp0	523	560
+.leaveat	types/supplydata	healing/supplies	yes	.rdata	2	2
+.name	types/supplydata	healing/supplies	yes	.rdata	938	950
+.objtype	types/supplydata	healing/supplies	yes	.rdata	7	7
+.rule	types/supplydata	healing/supplies	yes	.rdata	1	1
+.rulevalue	types/supplydata	healing/supplies	yes	.rdata	1	1
+.uptocount	types/supplydata	healing/supplies	yes	.rdata	1	1
+.weight	types/supplydata	healing/supplies	yes	.rdata	5	5
+.hasproperty(str)	types/tile	client memory/state (HookManager)	yes	-	0	0
+.item	types/tile	looting/items	yes	.rdata	225	239
+.itemcount	types/tile	looting/items	yes	.rdata	117	120
+.objtype	types/tile	client memory/state (HookManager)	yes	.rdata	7	7
+.hasproperty(str)	types/vipnode	client memory/state (HookManager)	yes	-	0	0
+.icon	types/vipnode	client memory/state (HookManager)	yes	.rdata	6	6
+.id	types/vipnode	client memory/state (HookManager)	yes	.rdata,.vmp0	523	560
+.isonline	types/vipnode	network/session	yes	.rdata	1	1
+.name	types/vipnode	client memory/state (HookManager)	yes	.rdata	938	950
+.notify	types/vipnode	client memory/state (HookManager)	yes	.rdata	1	1
+.objtype	types/vipnode	client memory/state (HookManager)	yes	.rdata	7	7
+$addons	variables/bot	client memory/state (HookManager)	yes	.rdata	0	0
+$balance	variables/bot	client memory/state (HookManager)	yes	.rdata	0	0
+$botversion	variables/bot	client memory/state (HookManager)	yes	.rdata	0	0
+$cavebot	variables/bot	cavebot	yes	.rdata	0	0
+$curscript	variables/bot	client memory/state (HookManager)	yes	.rdata	0	0
+$fasthotkeys	variables/bot	client memory/state (HookManager)	yes	.rdata	0	0
+$favoritedepot	variables/bot	looting/items	yes	.rdata	0	0
+$lastlabel	variables/bot	client memory/state (HookManager)	yes	.rdata	0	0
+$lastonto	variables/bot	client memory/state (HookManager)	yes	.rdata	0	0
+$lootaccuracy	variables/bot	looting/items	yes	.rdata	0	0
+$lootbodies	variables/bot	looting/items	yes	.rdata	0	0
+$looting	variables/bot	looting/items	yes	.rdata	0	0
+$lootsaround	variables/bot	looting/items	yes	.rdata	0	0
+$luring	variables/bot	client memory/state (HookManager)	yes	.rdata	0	0
+$macheteid	variables/bot	client memory/state (HookManager)	yes	.rdata	0	0
+$moneyspent	variables/bot	client memory/state (HookManager)	yes	.rdata	0	0
+$openingbps	variables/bot	looting/items	yes	.rdata	0	0
+$pickid	variables/bot	client memory/state (HookManager)	yes	.rdata	0	0
+$refilling	variables/bot	healing/supplies	yes	.rdata	0	0
+$ropeid	variables/bot	client memory/state (HookManager)	yes	.rdata	0	0
+$shovelid	variables/bot	client memory/state (HookManager)	yes	.rdata	0	0
+$simulatedcursor	variables/bot	client memory/state (HookManager)	yes	.rdata	0	0
+$targeting	variables/bot	targeting	yes	.rdata	0	0
+$trapped	variables/bot	client memory/state (HookManager)	yes	.rdata	0	0
+$wptid	variables/bot	cavebot	yes	.rdata	0	0
+$wptsection	variables/bot	cavebot	yes	.rdata	0	0
+$wpttype	variables/bot	cavebot	yes	.rdata	0	0
+$wptx	variables/bot	cavebot	yes	.rdata	0	0
+$wpty	variables/bot	cavebot	yes	.rdata	0	0
+$wptz	variables/bot	cavebot	yes	.rdata	0	0
+$cap	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$dead	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$exp	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$hp	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$hppc	variables/character	healing/supplies	yes	.rdata	0	0
+$id	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$maxhp	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$maxmp	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$mounted	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$mp	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$mppc	variables/character	healing/supplies	yes	.rdata	0	0
+$name	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$offlinetraining	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$posx	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$posy	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$posz	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$premium	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$soul	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$stamina	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$voc	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$vocation	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$vocshort	variables/character	client memory/state (HookManager)	yes	.rdata	0	0
+$worldname	variables/character	network/session	yes	.rdata	0	0
+$attackmode	variables/client	targeting	yes	.rdata	0	0
+$battleopen	variables/client	targeting	yes	.rdata	0	0
+$chasemode	variables/client	client memory/state (HookManager)	yes	.rdata	0	0
+$connected	variables/client	network/session	yes	.rdata	0	0
+$connectionstate	variables/client	network/session	yes	.rdata	0	0
+$focused	variables/client	client memory/state (HookManager)	yes	.rdata	0	0
+$marketopen	variables/client	client memory/state (HookManager)	yes	.rdata	0	0
+$minimized	variables/client	client memory/state (HookManager)	yes	.rdata	0	0
+$openmenuname	variables/client	client memory/state (HookManager)	yes	.rdata	0	0
+$pvpmode	variables/client	client memory/state (HookManager)	yes	.rdata	0	0
+$pvpsecurity	variables/client	client memory/state (HookManager)	yes	.rdata	0	0
+$tradeopen	variables/client	client memory/state (HookManager)	yes	.rdata	0	0
+$typedtext	variables/client	client memory/state (HookManager)	yes	.rdata	0	0
+$worldvisible	variables/client	network/session	yes	.rdata	0	0
+$writtentext	variables/client	client memory/state (HookManager)	yes	.rdata	0	0
+$writtentextinfo	variables/client	client memory/state (HookManager)	yes	.rdata	0	0
+$attacked	variables/creature	targeting	yes	.rdata	0	0
+$followed	variables/creature	targeting	yes	.rdata	0	0
+$mattacker	variables/creature	targeting	yes	.rdata	0	0
+$pattacker	variables/creature	targeting	yes	.rdata	0	0
+$self	variables/creature	client memory/state (HookManager)	yes	.rdata	0	0
+$target	variables/creature	targeting	yes	.rdata	0	0
+$targetingtarget	variables/creature	targeting	yes	.rdata	0	0
+$deathdmg	variables/damage	client memory/state (HookManager)	yes	.rdata	0	0
+$earthdmg	variables/damage	client memory/state (HookManager)	yes	.rdata	0	0
+$energydmg	variables/damage	client memory/state (HookManager)	yes	.rdata	0	0
+$firedmg	variables/damage	client memory/state (HookManager)	yes	.rdata	0	0
+$healdmg	variables/damage	healing/supplies	yes	.rdata	0	0
+$holydmg	variables/damage	client memory/state (HookManager)	yes	.rdata	0	0
+$icedmg	variables/damage	client memory/state (HookManager)	yes	.rdata	0	0
+$manadmg	variables/damage	healing/supplies	yes	.rdata	0	0
+$physicaldmg	variables/damage	client memory/state (HookManager)	yes	.rdata	0	0
+$botdb	variables/database	client memory/state (HookManager)	yes	.rdata	0	0
+$chardb	variables/database	client memory/state (HookManager)	yes	.rdata	0	0
+$worlddb	variables/database	network/session	yes	.rdata	0	0
+$back	variables/equip	looting/items	yes	.rdata	0	0
+$belt	variables/equip	looting/items	yes	.rdata	0	0
+$chest	variables/equip	looting/items	yes	.rdata	0	0
+$feet	variables/equip	looting/items	yes	.rdata	0	0
+$finger	variables/equip	looting/items	yes	.rdata	0	0
+$head	variables/equip	looting/items	yes	.rdata	0	0
+$legs	variables/equip	looting/items	yes	.rdata	0	0
+$lhand	variables/equip	looting/items	yes	.rdata	0	0
+$neck	variables/equip	looting/items	yes	.rdata	0	0
+$rhand	variables/equip	looting/items	yes	.rdata	0	0
+$curevent	variables/events	client memory/state (HookManager)	yes	.rdata	0	0
+$cureventid	variables/events	client memory/state (HookManager)	yes	.rdata	0	0
+$cureventtype	variables/events	client memory/state (HookManager)	yes	.rdata	0	0
+$clientwin	variables/huds	client memory/state (HookManager)	yes	.rdata	0	0
+$cursor	variables/huds	client memory/state (HookManager)	yes	.rdata	0	0
+$cursorinfo	variables/huds	client memory/state (HookManager)	yes	.rdata	0	0
+$screenwin	variables/huds	client memory/state (HookManager)	yes	.rdata	0	0
+$windowsxp	variables/huds	client memory/state (HookManager)	yes	.rdata	0	0
+$worldwin	variables/huds	network/session	yes	.rdata	0	0
+$navigation	variables/navigation	navigation	yes	.rdata	0	0
+$lastanimatedtext	variables/screen	client memory/state (HookManager)	yes	.rdata	0	0
+$lasteffect	variables/screen	client memory/state (HookManager)	yes	.rdata	0	0
+$lastmsg	variables/screen	client memory/state (HookManager)	yes	.rdata	0	0
+$lastnpcmsg	variables/screen	client memory/state (HookManager)	yes	.rdata	0	0
+$lastprojectile	variables/screen	client memory/state (HookManager)	yes	.rdata	0	0
+$idlerecvtime	variables/server	network/session	yes	.rdata	0	0
+$ping	variables/server	network/session	yes	.rdata	0	0
+$pingaverage	variables/server	network/session	yes	.rdata	0	0
+$axe	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$axepc	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$club	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$clubpc	variables/skill	looting/items	yes	.rdata	0	0
+$distance	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$distancepc	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$fishing	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$fishingpc	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$fist	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$fistpc	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$level	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$levelpc	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$mlevel	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$mlevelpc	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$shielding	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$shieldingpc	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$sword	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$swordpc	variables/skill	client memory/state (HookManager)	yes	.rdata	0	0
+$expgained	variables/statistics	client memory/state (HookManager)	yes	.rdata	0	0
+$exphour	variables/statistics	client memory/state (HookManager)	yes	.rdata	0	0
+$exptonextlevel	variables/statistics	client memory/state (HookManager)	yes	.rdata	0	0
+$timetonextlevel	variables/statistics	client memory/state (HookManager)	yes	.rdata	0	0
+$battlesigned	variables/status	targeting	yes	.rdata	0	0
+$bleeding	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$bleedingdmg	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$burning	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$burningdmg	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$cursed	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$curseddmg	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$dazzled	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$drowning	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$drunk	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$electrified	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$electrifieddmg	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$frozen	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$frozendmg	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$hasted	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$manashielded	variables/status	healing/supplies	yes	.rdata	0	0
+$paralyzed	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$poisondmg	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$poisoned	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$pvpsigned	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$pzone	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$strenghtened	variables/status	client memory/state (HookManager)	yes	.rdata	0	0
+$charactertime	variables/timer	client memory/state (HookManager)	yes	.rdata	0	0
+$clientctrltime	variables/timer	client memory/state (HookManager)	yes	.rdata	0	0
+$clientshifttime	variables/timer	client memory/state (HookManager)	yes	.rdata	0	0
+$ctrltime	variables/timer	client memory/state (HookManager)	yes	.rdata	0	0
+$hastetime	variables/timer	client memory/state (HookManager)	yes	.rdata	0	0
+$hunttime	variables/timer	client memory/state (HookManager)	yes	.rdata	0	0
+$invistime	variables/timer	client memory/state (HookManager)	yes	.rdata	0	0
+$mshieldtime	variables/timer	client memory/state (HookManager)	yes	.rdata	0	0
+$openmenutime	variables/timer	client memory/state (HookManager)	yes	.rdata	0	0
+$recoverytime	variables/timer	client memory/state (HookManager)	yes	.rdata	0	0
+$shifttime	variables/timer	client memory/state (HookManager)	yes	.rdata	0	0
+$standtime	variables/timer	client memory/state (HookManager)	yes	.rdata	0	0
+$strenghtentime	variables/timer	client memory/state (HookManager)	yes	.rdata	0	0
+$targettime	variables/timer	targeting	yes	.rdata	0	0
+$timems	variables/timer	client memory/state (HookManager)	yes	.rdata	0	0
+description	widgets/button	HUD/widgets	yes	.rdata	0	0
+name	widgets/button	HUD/widgets	yes	.rdata	938	950
+text	widgets/button	HUD/widgets	yes	.rdata	45	45
+type	widgets/button	HUD/widgets	yes	.rdata	809	801
+description	widgets/checkbox	HUD/widgets	yes	.rdata	0	0
+name	widgets/checkbox	HUD/widgets	yes	.rdata	938	950
+text	widgets/checkbox	HUD/widgets	yes	.rdata	45	45
+type	widgets/checkbox	HUD/widgets	yes	.rdata	809	801
+value	widgets/checkbox	HUD/widgets	yes	.rdata	323	329
+description	widgets/combobox	HUD/widgets	yes	.rdata	0	0
+items	widgets/combobox	looting/items	yes	.rdata	145	150
+name	widgets/combobox	HUD/widgets	yes	.rdata	938	950
+text	widgets/combobox	HUD/widgets	yes	.rdata	45	45
+type	widgets/combobox	HUD/widgets	yes	.rdata	809	801
+description	widgets/doublespinbox	HUD/widgets	yes	.rdata	0	0
+max	widgets/doublespinbox	HUD/widgets	yes	.rdata	59	59
+min	widgets/doublespinbox	HUD/widgets	yes	.rdata	20	20
+name	widgets/doublespinbox	HUD/widgets	yes	.rdata	938	950
+prefix	widgets/doublespinbox	HUD/widgets	yes	.rdata	0	0
+suffix	widgets/doublespinbox	HUD/widgets	yes	.rdata	0	0
+text	widgets/doublespinbox	HUD/widgets	yes	.rdata	45	45
+type	widgets/doublespinbox	HUD/widgets	yes	.rdata	809	801
+value	widgets/doublespinbox	HUD/widgets	yes	.rdata	323	329
+checkable	widgets/group	HUD/widgets	yes	.rdata	0	0
+children	widgets/group	HUD/widgets	yes	.rdata	0	0
+column	widgets/group	HUD/widgets	yes	.rdata	1	1
+description	widgets/group	HUD/widgets	yes	.rdata	0	0
+name	widgets/group	HUD/widgets	yes	.rdata	938	950
+text	widgets/group	HUD/widgets	yes	.rdata	45	45
+type	widgets/group	HUD/widgets	yes	.rdata	809	801
+description	widgets/lineedit	HUD/widgets	yes	.rdata	0	0
+name	widgets/lineedit	HUD/widgets	yes	.rdata	938	950
+placeholder	widgets/lineedit	HUD/widgets	yes	.rdata	0	0
+text	widgets/lineedit	HUD/widgets	yes	.rdata	45	45
+type	widgets/lineedit	HUD/widgets	yes	.rdata	809	801
+value	widgets/lineedit	HUD/widgets	yes	.rdata	323	329
+description	widgets/rangespinbox	HUD/widgets	yes	.rdata	0	0
+max	widgets/rangespinbox	HUD/widgets	yes	.rdata	59	59
+min	widgets/rangespinbox	HUD/widgets	yes	.rdata	20	20
+name	widgets/rangespinbox	HUD/widgets	yes	.rdata	938	950
+prefix	widgets/rangespinbox	HUD/widgets	yes	.rdata	0	0
+suffix	widgets/rangespinbox	HUD/widgets	yes	.rdata	0	0
+text	widgets/rangespinbox	HUD/widgets	yes	.rdata	45	45
+type	widgets/rangespinbox	HUD/widgets	yes	.rdata	809	801
+value	widgets/rangespinbox	HUD/widgets	yes	.rdata	323	329
+name	widgets/scriptinfo	HUD/widgets	yes	.rdata	938	950
+type	widgets/scriptinfo	HUD/widgets	yes	.rdata	809	801
+version	widgets/scriptinfo	HUD/widgets	yes	.rdata	11	11
+type	widgets/separator	HUD/widgets	yes	.rdata	809	801
+description	widgets/spinbox	HUD/widgets	yes	.rdata	0	0
+max	widgets/spinbox	HUD/widgets	yes	.rdata	59	59
+min	widgets/spinbox	HUD/widgets	yes	.rdata	20	20
+name	widgets/spinbox	HUD/widgets	yes	.rdata	938	950
+prefix	widgets/spinbox	HUD/widgets	yes	.rdata	0	0
+suffix	widgets/spinbox	HUD/widgets	yes	.rdata	0	0
+text	widgets/spinbox	HUD/widgets	yes	.rdata	45	45
+type	widgets/spinbox	HUD/widgets	yes	.rdata	809	801
+value	widgets/spinbox	HUD/widgets	yes	.rdata	323	329
