@@ -7,7 +7,8 @@
 `windbot_re` documents **WindBot** (tibiawindbot.com / Lucas Terra et al.), a Qt5
 native bot historically attached to the classic C++ Tibia client. This repo is a
 research corpus: hashes, PE/VMProtect notes, auth endpoints, bundled Lua samples,
-and client-patch tooling. **No copyrighted binaries or license ***REMOVED***
+and client-patch tooling. Vendor binaries are referenced by SHA256 and archive
+links only; they are not checked into the tree.
 
 ## Scope
 
@@ -47,14 +48,15 @@ Observed at runtime under Wine:
   forum login copy, trial purchase URLs, `navi.tibiawindbot.com`,
   `updates.tibiawindbot.com`.
 
-***REMOVED***
-The session ends at the Authentication dialog (forum credentials required). Feature engines behind that dialog are documented from static metadata.
+The session ends at the Authentication dialog (forum credentials required;
+`auth.tibiawindbot.com` is the licence host). Feature engines behind that dialog
+are documented from static metadata (RTTI, strings, Lua catalogs).
 
 ## Documentation map
 
 | Doc | Topic |
 | --- | --- |
-| [00-status](docs/00-status.md) | Done / blocked |
+| [00-status](docs/00-status.md) | Done / open items |
 | [01-provenance](docs/01-provenance.md) | URLs + SHA256 |
 | [02-overview](docs/02-overview.md) | Product lineage |
 | [03-static-analysis](docs/03-static-analysis.md) | PE / VMProtect / Qt |
@@ -67,13 +69,11 @@ The session ends at the Authentication dialog (forum credentials required). Feat
 | [10-rtti-architecture](docs/10-rtti-architecture.md) | Class map + injection evidence |
 | [11-settings-schema](docs/11-settings-schema.md) | .xmls/.xmlc, waypoints |
 | [12-auth-protocol](docs/12-auth-protocol.md) | Auth/updater/navi |
+| [13-rea-analysis](docs/13-rea-analysis.md) | REA 6.7.0 artifact/desktop notes |
+| [14-client-1076-offsets](docs/14-client-1076-offsets.md) | Client memory map (live-validated) |
 
 ## Tools
 
 - `tools/pe_recon.py`
 - `tools/patch_client.py`
-
-## Notes
-
-***REMOVED***
-***REMOVED***
+- `tools/read_1076.py`

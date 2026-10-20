@@ -16,5 +16,6 @@ VMProtect markers: section names `.vmp0` / `.vmp1`, high entropy, collapsed impo
 
 UI classes: `LoginDialog`, `NaviUserLoginDialog`.
 
-***REMOVED***
-Runtime (2.6.2 under Wine): window **`WindBot 2.6.2 - Authentication`**. The session ends at that dialog; attach and scripting engines behind it were documented from static metadata.
+Runtime (2.6.2 under Wine): window **`WindBot 2.6.2 - Authentication`**. The session
+ends at that dialog; attach and scripting engines behind it were documented from
+static metadata.
