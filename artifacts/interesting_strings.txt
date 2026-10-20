@@ -1,0 +1,100 @@
+ 2013 WindBot, Brazil. All rights reserved.</p><p><a href="http://www.tibiawindbot.com"><span style=" text-decoration: underline; color:#0000ff;">http://www.tibiawindbot.com</span></a></p></body></html>
+ Use a pre-made script available on your scripts folder.</p><p>There are three kinds of <span style=" font-style:italic;">Lua Scripts:<br/>Hotkeys: </span>these scripts are triggered when you press a certain key on your keyboard. For example, if you want to shoot a rune on the currently attacked creature.<br/><span style=" font-style:italic;">Persistent:</span> these scripts needs to be activated by you, and it will start running once you activate it.<br/><span style=" font-style:italic;">Cavebot: </span>these scripts only runs when you have the Cavebot running. Beside that, it works just like Persistent scripts. Also, these scripts gets saved when you save your Cavebot Settings to an XML file.</p></body></html>
+$cavebot
+$targeting
+$targetingtarget
+'ConditionHealer'.
+'FriendHealer' section converted to a persistent script: 'FriendHealer_ib'
+'PotionHealer'. 
+'SpellHealer'. 
+.?AV?$VirtualAllocationManager@VRealAllocationStrategy@@@@
+.?AVCavebotCheckBox@@
+.?AVCavebotComboBox@@
+.?AVCavebotDoubleSpinBox@@
+.?AVCavebotGroupBox@@
+.?AVCavebotLineEdit@@
+.?AVCavebotPushButton@@
+.?AVCavebotRangeSpinBox@@
+.?AVCavebotSpinBox@@
+.?AVCavebotTabWidget@@
+.?AVCavebotTabsBar@@
+.?AVCavebotWidget@@
+.?AVHealerWidget@@
+.?AVHealerWidgetTabs@@
+.?AVIVirtualAllocationManager@@
+.?AVQNetworkAccessManager@@
+.?AVTargetingListDelegate@@
+.?AVTargetingProfileDelegate@@
+.?AVTargetingProfileTableModel@@
+.?AVTargetingProfileTableView@@
+.?AVTargetingProfileWidget@@
+.?AVTargetingTableModel@@
+.?AVTargetingWidget@@
+/cavebotsettings/
+/libs/converter/FriendHealer_ib.lua
+1finishedUploading(QNetworkReply*)
+1on_cavebotOptionValueChanged(QString, CavebotOptionsValue)
+1on_luaLib_received(QNetworkReply*)
+1on_newsReply_received(QNetworkReply*)
+1replyFinished(QNetworkReply*)
+1setcavebot(int)
+2finished(QNetworkReply*)
+2valueChangedSpecial(QString, CavebotOptionsValue)
+:/healericons/icons/healer-disabled.png
+:/healericons/icons/healer-ok.png
+:/healericons/icons/healer-warning.png
+<html><head/><body><p><a href="http://forums.tibiawindbot.com/login.php?do=lostpw"><span style=" text-decoration: underline; color:#0000ff;">Forgot your password?</span></a></p></body></html>
+<html><head/><body><p><span style=" font-style:italic;">Auto-Switch Vocation Profiles</span> will automatically switch for the best Targeting Profile if you change character.</p><p>The new profile will be chosen based on new character's Level and Vocation.</p></body></html>
+<html><head/><body><p><span style=" font-style:italic;">Cavebot </span>is the part responsible for handling the 'auto-walking'.</p><p>WindBot allows you to set several <span style=" font-style:italic;">Waypoint Sections</span>, this way you can keep your waypoints in the most organized way as possible.</p><p>For example, you can set a section for walking on the 'First Floor' of a cave, a section for walking on the 'Second Floor', another one for 'Go to City', and so on...</p></body></html>
+<html><head/><body><p><span style=" font-style:italic;">Condition Healer</span> is used to heal your character under certain conditions, like paralyze, or poison. It's the second highest priority.</p><p>It can also be used to configure auto-hasters, or auto-manashielders.</p></body></html>
+<html><head/><body><p><span style=" font-style:italic;">Diagonal Movement </span>is used to allow the Targeting System to move diagonally in the map. This is option can increase the CPU usage a little bit, only use it if really necessary.</p></body></html>
+<html><head/><body><p><span style=" font-style:italic;">Healer</span> is the part of the bot responsible for healing your character. It's configured based on <span style=" font-style:italic;">healing rules.</span> You can either use instant spells, runes or potions.</p><p>There are three kinds of spell healing:<br/><span style=" font-style:italic;">Spell Healer:</span> used to heal your character when your life goes low. It has the highest priority of the three healers.<br/><span style=" font-style:italic;">Condition Healer: </span>used to heal your character under certain conditions, like paralyze, or poison. It has the second highest priority.<br/><span style=" font-style:italic;">Mana Trainer:</span> used to spend mana when your mana goes too high, this way you won't waste mana on mana training. There are several ways to spend your mana points, check the <span style=" font-style:italic;">mana trainer</span> section for further details. It's the lowest priority of the three healers.</p><p>On most of the servers you are able to use potions at the same time as using instant spells. So, the <span style=" font-style:italic;">Potion Healer</span> runs in parallel with the instant spell healers.</p></body></html>
+<html><head/><body><p><span style=" font-style:italic;">Looting</span> helps you making loot lists, and choose which items to pick from each corpse.</p><p>WindBot allows you to set several <span style=" font-style:italic;">Looting Profiles. </span>It might be useful for making scripts adaptable for different vocations.</p><p>For example, Knights have a lot of carrying capacity, so they can carry items that doesn't worth much. While Sorcerers and Druids should only pick items that are worth more.</p><p>Based on the WindBot's database, you can make your loot list in just a few steps: <br/>1. Make your <span style=" font-style:italic;">Targeting List </span>(check the Targeting Section for further details)<br/>2. Go to the desired <span style=" font-style:italic;">Looting Profile</span>.<br/>3. Click on <span style=" font-style:italic;">Auto-Generate Loot List.<br/></span>4. Choose the items you want to loot, and you are ready!</p></body></html>
+<html><head/><body><p><span style=" font-style:italic;">Potion Healer </span>is used to heal your character with health potions, mana potions or antidote potions.</p><p>On most of the servers you are able to use potions at the same time as using instant spells. Therefore, the <span style=" font-style:italic;">Potion Healer</span> runs in parallel with the instant spell healers.</p><p>Be careful, stronger potions must have higher priority (stay on top of the list).</p></body></html>
+<html><head/><body><p><span style=" font-style:italic;">Spell Healer</span> is used to heal your character when your life goes low. It has the highest priority of the three spell healers.</p><p>Be careful, stronger healing spells must have higher priority (stay on top of the list).</p></body></html>
+<html><head/><body><p><span style=" font-style:italic;">Targeting </span>is the part responsible for automatically fighting creatures. You can set a different rule for each creature, and the bot will find the best movements to kill the monsters, according to your rules.</p><p>WindBot allows you to have different <span style=" font-style:italic;">Targeting Profiles</span>, so you can adapt your scripts for each vocation and level.</p><p>For example, Knights needs to fight close to their targets. While Paladins should run from them.</p></body></html>
+<html><head/><body><p><span style=" font-weight:600;">Smart Looting:</span> Will open bodies around you whenever your character is standing by for a few seconds. Further bodies will get looted after you kill all the monsters.</p><p><span style=" font-weight:600;">Loot After All Dead:</span> Will wait until you kill all the monsters on screen before going after corpses.</p><p><span style=" font-weight:600;">Loot After Melee Kill: </span>Will open any bodies around your character, even if you are targeting a monster. Further bodies will get looted after you kill all the monsters.</p></body></html>
+<html><head/><body><p>Add new Targeting Profile.</p></body></html>
+<html><head/><body><p>Choose which vocations can use the selected Targeting Profile, and for which levels this profile is appropriated.</p></body></html>
+<html><head/><body><p>Delete currently selected Targeting Profile.</p></body></html>
+<html><head/><body><p>If checked, bot will open bodies that are worth more than the value set in <span style=" font-style:italic;">Ultra-Valuable Bodies</span> immediately.</p><p>Which means it will even stop targeting the current target to get the loot.</p></body></html>
+<html><head/><body><p>If this option is checked, the Targeting System will only select creatures that can be reachable.</p></body></html>
+<html><head/><body><p>If this option is checked, the Targeting System will only select creatures that can be shootable.</p></body></html>
+<html><head/><body><p>In this table, you can see all of the healing rules for this section of the healer.</p></body></html>
+<html><head/><body><p>Makes the targeting system stick to the current attacked creature. This option is very sensitive, use with caution.</p></body></html>
+<html><head/><body><p>Randomness factor on targeting selection.</p></body></html>
+<html><head/><body><p>Targeting system will prioritize creatures closer to your character.</p></body></html>
+<html><head/><body><p>Targeting system will prioritize creatures with higher danger level.</p></body></html>
+<html><head/><body><p>Targeting system will prioritize creatures with lowest health.</p></body></html>
+<html><head/><body><p>Targeting system will prioritize paths that make you reach faster to the lure destination.</p></body></html>
+<html><head/><body><p>The rule name is not necessary for the healer itself, but it's needed if you pretend to edit the rules through scripting.</p></body></html>
+<html><head/><body><p>This will save only the cavebot settings in to one <span style=" font-style:italic;">.xmls</span> file.</p><p>Cavebot Settings include: </p><ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:6px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Alerts</li><li style=" margin-top:6px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Cavebot (including Cavebot Scripts)</li><li style=" margin-top:6px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Looting</li><li style=" margin-top:6px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Supplies</li><li style=" margin-top:6px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Targeting</li></ul></body></html>
+<html><head/><body><p>This will save only the player settings in to one <span style=" font-style:italic;">.xmls</span> file.</p><p>Player Settings include: <ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 0.3;"><li style=" margin-top:6px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Healer</li><li style=" margin-top:6px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Scripter</li><li style=" margin-top:6px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">HUDs</li><li style=" margin-top:6px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Settings</li></ul></p></body></html>
+?qt_metacast@QNetworkAccessManager@@UAEPAXPBD@Z
+ATTACH '' AS vacuum_db;
+ATTACH ':memory:' AS vacuum_db;
+Add creatures to the targeting
+CaveBot
+Cavebot
+Cavebot & Targeting
+Cavebot Enabled
+Cavebot Files (*.xmlc)
+Cavebot Options
+Cavebot script
+Cavebot/*/Name
+Cavebot/*/Waypoints
+Cavebot/*/Waypoints/%
+Cavebot/*/Waypoints/%/Action
+Cavebot/*/Waypoints/%/Coordinates
+Cavebot/*/Waypoints/%/Label
+Cavebot/*/Waypoints/%/Range
+Cavebot/*/Waypoints/%/Type
+Cavebot/AutoMount
+Cavebot/AutoRefillAmmo
+Cavebot/Enabled
+Cavebot/EnergyAvoidance
+Cavebot/FireAvoidance
+Cavebot/Machete
+Cavebot/MapWalkDistance
+Cavebot/NodeRange
+Cavebot/PauseOnDeath

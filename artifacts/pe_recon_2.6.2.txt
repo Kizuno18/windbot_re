@@ -1,0 +1,37 @@
+# /workspace/re/windbot/inst_2.6.2/app/code$MyConst.exe
+sha256 5b8217d2c36880c152c368c7cb0d4f7ab76c0b5b5d2ebaa7847df8358141172b  size 11777536
+timestamp 2015-03-03 09:59:21Z  ImageBase 0x400000 EP 0x23a1e32 subsys 2
+CLR header: False
+  .text      va 0x0001000 vsz 0x032715c raw 0x0000000 ent 0.00
+  .rdata     va 0x0329000 vsz 0x00dd364 raw 0x0000000 ent 0.00
+  .data      va 0x0407000 vsz 0x0a39624 raw 0x0000000 ent 0.00
+  .vmp0      va 0x0e41000 vsz 0x0a94b2c raw 0x0000000 ent 0.00
+  .tls       va 0x18d6000 vsz 0x0000018 raw 0x0000200 ent -0.00
+  .vmp1      va 0x18d7000 vsz 0x0ae0548 raw 0x0ae0600 ent 8.00
+  .rsrc      va 0x23b8000 vsz 0x005a9ef raw 0x005aa00 ent 3.54
+  IMPORT OPENGL32.dll (1): glGetIntegerv
+  IMPORT GDI32.dll (1): CreateDIBSection
+  IMPORT USER32.dll (1): UpdateLayeredWindow
+  IMPORT DSOUND.dll (1): #1
+  IMPORT WINMM.dll (1): mmioRead
+  IMPORT PSAPI.DLL (1): GetModuleFileNameExW
+  IMPORT WS2_32.dll (1): socket
+  IMPORT Qt5OpenGL.dll (1): ?updateOverlayGL@QGLWidget@@UAEXXZ
+  IMPORT Qt5Widgets.dll (1): ?scale@QGraphicsView@@QAEXNN@Z
+  IMPORT Qt5Gui.dll (1): ?globalPos@QMouseEvent@@QBE?AVQPoint@@XZ
+  IMPORT Qt5Core.dll (1): ?property@QObject@@QBE?AVQVariant@@PBD@Z
+  IMPORT Qt5Network.dll (1): ??1QNetworkRequest@@QAE@XZ
+  IMPORT Qt5Svg.dll (1): ??1QSvgRenderer@@UAE@XZ
+  IMPORT KERNEL32.dll (3): GetVersionExW, GetVersionExA, CloseHandle
+  IMPORT ADVAPI32.dll (1): RegQueryValueExA
+  IMPORT SHELL32.dll (1): SHGetFolderPathW
+  IMPORT ole32.dll (1): CoSetProxyBlanket
+  IMPORT OLEAUT32.dll (1): VariantInit
+  IMPORT MSVCR100.dll (1): remove
+  IMPORT MSVCP100.dll (1): ?_Xlength_error@std@@YAXPBD@Z
+  IMPORT IPHLPAPI.DLL (1): GetBestInterface
+  IMPORT VERSION.dll (1): VerQueryValueW
+  IMPORT KERNEL32.dll (1): GetModuleFileNameW
+  IMPORT KERNEL32.dll (6): GetModuleHandleA, LoadLibraryA, LocalAlloc, LocalFree, GetModuleFileNameA, ExitProcess
+  EXPORTS (0): 
+

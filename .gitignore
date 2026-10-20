@@ -1,0 +1,14 @@
+*.exe
+*.dll
+*.zip
+*.msi
+*.otbm
+*.spr
+*.dat
+*.pic
+__pycache__/
+.wine/
+*.i64
+*.idb
+inst/
+inst_*/
