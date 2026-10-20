@@ -2,7 +2,7 @@
 
 Sources: Wayback Machine CDX (`web.archive.org/cdx`) and archived pages of `tibiaibot.com` and `tibiawindbot.com`.
 Dates marked *capture* are Wayback timestamps (UTC), not necessarily release days. Dates marked *posted* come from the archived page itself.
-Community forums (OTLand, TibiaKing) were not checked page-by-page for this revision; items attributed to them below are marked as such.
+Community forum mentions are listed in their own section below.
 
 ## iBot (tibiaibot.com)
 
@@ -60,6 +60,30 @@ Prices were also offered in BRL; a forum registration was required before purcha
 
 ### End of support
 WindBot has no archived end-of-support notice; the site and licence portal remain online as of 2026-10. Support for specific classic clients ends when a newer installer replaces it; 10.76 was covered by the 2.6.x line.
+
+## Community forum mentions
+
+Collected on 2026-10-20 from public forum pages (OTLand, TibiaKing, official WindBot forum). Dates are thread start or post dates as shown on each page. The Wayback availability API did not respond during this pass, so snapshot links were not verified; the live URLs are given instead. Opinions quoted in these threads are users' claims, not findings of this repo. No TibiaDevs thread on either bot was found.
+
+### iBot
+| Date | Forum | Thread | What it documents |
+|---|---|---|---|
+| 2013-01-13 | OTLand | [Best Tibia Cheat nowadays, FOR OT's?](https://otland.net/threads/best-tibia-cheat-nowadays-for-ots.177913/) | Poll Xenobot / iBot / RedBot (23 / 10 / 5 votes); iBot discussed for 9.7x–9.81 OT servers |
+| 2013-02-16 | OTLand | [about cracked ibot - ibot scripts](https://otland.net/threads/about-cracked-ibot-ibot-scripts.181146/) | Warning that unofficial iBot builds and traded scripts circulated with malware; mentions v1.1.7 for client 9.81 |
+| 2013-04-28 | OTLand | [How do I use Ibot?!](https://otland.net/threads/how-do-i-use-ibot.188082/) | Usage question; users compare iBot's script library with Xenobot |
+| 2013-05-28 | OTLand | [ibot 1.1.7](https://otland.net/threads/ibot-1-1-7.190492/) | Confirms **v1.1.7 = Tibia 9.81** |
+| 2014-12-19 | TibiaKing | [Os melhores Scripts p/ iBot e WindBot](https://tibiaking.com/tags/windbot/) (tag index) | Script pack shared for both bots; replies until 2019-01 |
+
+### WindBot
+| Date | Forum | Thread | What it documents |
+|---|---|---|---|
+| 2014-06-18 | OTLand | [Xenobot vs Windobot](https://otland.net/threads/xenobot-vs-windobot.216768/) | Users state WindBot "came out December 2013", consistent with the 1.0.1 news post of 2013-12-07 |
+| 2014-10-30 → 2018-07-17 | TibiaKing | [WindBot sub-forum](https://tibiaking.com/forum/313-windbot/), [tag index](https://tibiaking.com/tags/windbot/) | Portuguese-language community scripts, HUDs and support threads; latest listed post 2018-07-17 |
+| 2016-11-01 | OTLand | [Questions about WindBot](https://otland.net/threads/questions-about-windbot.246875/) | A user asks about a "15 days trial" (vs. 3 days on the 2014 purchase page) |
+| 2.8.21 era | WindBot forum | [WindBot 2.8.21 (Protocol 11.34, Client 10 and Client 11)](https://forums.tibiawindbot.com/showthread.php?120221-WindBot-2-8-21-(Protocol-11-34-Client-10-and-Client-11)) | Release post by Lucas Terra: protocol 11.32/11.34 support, WindAddons 1.5.11, Client 11 tools |
+| ongoing | WindBot forum | [forum index](https://forums.tibiawindbot.com/forum.php) | Banner: WindBot "does not work on game servers protected by anti-cheat software"; last Announcements post 2018-03-21, Releases 2021-04-22, Discussions 2026-07-17 |
+
+Third-party file reputation: herdProtect lists `windbot1076-2.6.2.exe` (Inno Setup, publisher "Lucas Terra, WindBot", 17,665,111 bytes, SHA-256 `cc7bb3bd…bbcf6`) as seen downloaded from tibiawindbot.com. The hash matches the study copy in `windbot_re/docs/01-provenance.md`.
 
 ## Relationship
 - Both products were sold as time-limited licences bound to a forum account and one machine (HWID).
