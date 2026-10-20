@@ -71,6 +71,8 @@ are documented from static metadata (RTTI, strings, Lua catalogs).
 | [12-auth-protocol](docs/12-auth-protocol.md) | Auth/updater/navi |
 | [13-rea-analysis](docs/13-rea-analysis.md) | REA 6.7.0 artifact/desktop notes |
 | [14-client-1076-offsets](docs/14-client-1076-offsets.md) | Client memory map (live-validated) |
+| [15-vmp-lab](docs/15-vmp-lab.md) | windows-lab / NoVmp applicability |
+| [history](docs/history.md) | Wayback timeline |
 
 ## Tools
 

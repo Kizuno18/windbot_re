@@ -56,4 +56,20 @@ Memory was read **read-only** from the Linux side via `/proc/<pid>/mem` of the W
 Raw dump (fictional test entities only): `artifacts/battlelist_dump_live.txt`.
 
 ### Open items
-Skull, party, war icon and the HP% decrease need a non-PZ fight or a second client. Light fields and +0xA8/+0xB0 need a light-changing scenario.
+Skull, party and war icon still need a second player or a working `setSkull` path. `+0xA8`/`+0xB0`/`+0xCC` remain unexplained constants.
+
+
+## Live validation (round 2 — HP% / light)
+
+With GM talkactions `/hurt` on a targeted Orc (temple PZ; damage applied server-side):
+
+| Observation | Result |
+|---|---|
+| Orc `+0x8C` | **100 → 43** after `/hurt 50` — **HP% confirmed** |
+| Rabbit `+0x8C` | **0** after death — corpse/empty slot still listed briefly |
+| Light `+0x7C` / `+0x80` | Color **255** on all; intensity **215** on player (torch / light condition), **0** on monsters — treated as **light color / light intensity** |
+| Skull `+0x94` | Remained 0 after `/setskull` (DB `skull=0`); **not confirmed live** |
+| Party / war `+0x98`/`+0x9C`/`+0xA0` | Still 0; second client / party invite not completed this session |
+| `+0xA8` / `+0xB0` / `+0xCC` | Still constants **357 / 153 / 1** across all entries — **unknown** |
+
+Reader: `tools/read_1076.py`.
